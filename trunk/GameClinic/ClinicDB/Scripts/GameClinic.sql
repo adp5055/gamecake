@@ -153,9 +153,19 @@ CREATE TABLE tblSystemReq
 		fldAdditionalReq	varchar (500)
 	)
 
+
 INSERT INTO tblSystemReq (fldProcessorType,  fldProcessorSpeed, fldOperatingSystem, fldSystemRam, 
 						  fldHardDriveSpace, fldNvidiaMain,		fldATIMin,			fldAdditionalReq) 
 						  VALUES ('Intel Pentium 4, AMD Athalon', '2.6GHz', 'Windows XP or higher', '1GB or higher', '12GB minimum', '128MB NVIDIA GeoForce 8600 GT', 'ATI Radeon 9800 PRO', 'Internet connection required, additional fees applicable' )
+INSERT INTO tblSystemReq (fldProcessorType,  fldProcessorSpeed, fldOperatingSystem, fldSystemRam, 
+						  fldHardDriveSpace, fldNvidiaMain,		fldATIMin,			fldAdditionalReq)
+						  VALUES ('Intel Pentium 4, AMD Athalon', '1.3GHz', 'Windows XP/ Mac OS 10.4.11', '512MB RAM', '15GB', null, '32MB 3D ATI RADEON 7200', 'Latest video drivers and and Internet service required for online play')
+INSERT INTO tblSystemReq (fldProcessorType,  fldProcessorSpeed, fldOperatingSystem, fldSystemRam, 
+						  fldHardDriveSpace, fldNvidiaMain,		fldATIMin,			fldAdditionalReq)
+						  VALUES ('Intel Pentium 4, AMD Athalon', '3.2GHz', 'Windows XP/ No Mac support', '1GB RAM', '12GB', '256MB NVIDIA GeForce 6600GT', 'ATI Radeon 1600XT', 'Cable modem or DSL required for online play')
+INSERT INTO tblSystemReq (fldProcessorType,  fldProcessorSpeed, fldOperatingSystem, fldSystemRam, 
+						  fldHardDriveSpace, fldNvidiaMain,		fldATIMin,			fldAdditionalReq)
+						  VALUES ('Intel Core 2 Duo', 'AMD Athalon X2', '2.4GHz', 'Windows XP with SP3', '1.5GB RAM', '10GB', 'NVIDIA GeoForce 8800', 'ATI Radeon HD 2900', 'Broadband Internet connection required', 'Intel Pentium Processor', null, '233MHz', 'Windows XP/ Mac OS 10.3.9', '64MB RAM', '1.75GB', 'DirectX-compatible video card', null, 'Internet service required to access online features')
 
 CREATE TABLE tblStatus
 	(
