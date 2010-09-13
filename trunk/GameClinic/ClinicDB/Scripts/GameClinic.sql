@@ -8,7 +8,8 @@ CREATE TABLE tblGames
 		fldFormatID	tinyint references tblFormats(fldFormatID) NOT NULL, 
 		fldPublisher	varchar(200) NULL,
 		fldReleaseDate	date NULL,
-		fldMultiplayer	bit NOT NULL,
+		fldMaxPlayers tinyint NOT NULL,
+		fldOnlinePlay	bit NOT NULL,
 		fldSysReqID	int references tblSystemReq(fldSysReqID), 
 		fldDownload	bit, --TELLS YOU IF THE GAME CAN BE DOWNLOADED
 		fldGameSize	varchar(20),
@@ -17,11 +18,49 @@ CREATE TABLE tblGames
 	)
 
 INSERT INTO tblGames (fldGameName,		     fldPlatformID,    fldGenreID,		fldRatingID, 
-					  fldFormatID,			 fldPublisher,     fldReleaseDate,  fldMultiplayer,
-					  fldSysReqID,           fldDownload,	   fldGameSize,		fldGameImage,  fldStatusID)
-VALUES				 ('Red Dead Redemption', 1,				   1,				1, 
-					  1,					 'Rockstar Games', 5/18/2010,		false, 
-					  null,					 false,			   null,			'reddead.jpg',	0)
+					  fldFormatID,			 fldPublisher,     fldReleaseDate,  fldMaxPlayers,	
+					  fldOnlinePlay,		 fldSysReqID,      fldDownload,	    fldGameSize,		
+					  fldGameImage,			 fldStatusID)
+VALUES				 ('Red Dead Redemption', 4,				   2,				5, 
+					  2,					 'Rockstar Games', 5/18/2010,		1,				
+					  true,					 null,			   false,			null,			
+					  'reddead_ps3.jpg',	1)
+
+INSERT INTO tblGames (fldGameName,		     fldPlatformID,    fldGenreID,		fldRatingID, 
+					  fldFormatID,			 fldPublisher,     fldReleaseDate,  fldMaxPlayers,
+					  fldOnlinePlay,		 fldSysReqID,      fldDownload,	    fldGameSize,		
+					  fldGameImage,			fldStatusID)
+VALUES				 ('Red Dead Redemption', 2,				   2,				5, 
+					  2,					 'Rockstar Games', 5/18/2010,		1,				
+					  true,					 null,			   false,			null,			
+					  'reddead._xbox360jpg',	1)
+
+INSERT INTO tblGames (fldGameName,		     fldPlatformID,    fldGenreID,		fldRatingID, 
+					  fldFormatID,			 fldPublisher,	   fldReleaseDate,	fldMaxPlayers,	
+					  fldOnlinePlay,		 fldSysReqID,      fldDownload,	    fldGameSize,		
+					  fldGameImage,			 fldStatusID)
+VALUES				 ('Fallout: New Vegas',  4,				   1,				5, 
+					  2,					 'Bethesda Softworks',	10/19/2010,	1,		
+					  false,				 null,			   false,			null,			
+					  'fallout_newvegas_ps3.jpg',	1)
+
+INSERT INTO tblGames (fldGameName,		     fldPlatformID,    fldGenreID,		fldRatingID, 
+					  fldFormatID,			 fldPublisher,	   fldReleaseDate,	fldMaxPlayers,
+					  fldOnlinePlay,		 fldSysReqID,      fldDownload,	    fldGameSize,		
+					  fldGameImage,			 fldStatusID)
+VALUES				 ('Fallout: New Vegas',  2,				   1,				5, 
+					  2,					 'Bethesda Softworks',	10/19/2010,	1,		
+					  false,				 null,			   false,			null,			
+					  'fallout_newvegas_xbox360.jpg',	1)
+
+INSERT INTO tblGames (fldGameName,		     fldPlatformID,    fldGenreID,		fldRatingID, 
+					  fldFormatID,			 fldPublisher,	   fldReleaseDate,	fldMaxPlayers,
+					  fldOnlinePlay,		 fldSysReqID,      fldDownload,	    fldGameSize,		
+					  fldGameImage,			 fldStatusID)
+VALUES				 ('Final Fantasy XIII',  4,				   4,				4, 
+					  2,					 'Square Enix',	   3/9/2010,		1,		
+					  false,				 null,			   false,			null,			
+					  'finalfantasy_xiii_ps3.jpg',	1)
 
 CREATE TABLE tblPlatforms
 	(
