@@ -69,19 +69,19 @@ CREATE TABLE tblPlatforms
 	)
 
 INSERT INTO tblPlatforms 	(fldPlayfromDesc)
-VALUES			  		("X-Box")
+VALUES			  		('X-Box')
 INSERT INTO tblPlatforms 	(fldPlayfromDesc)
-VALUES			  		("X-Box 360")
+VALUES			  		('X-Box 360')
 INSERT INTO tblPlatforms 	(fldPlayfromDesc)
-VALUES					("Playstation 2")
+VALUES					('Playstation 2')
 INSERT INTO tblPlatforms 	(fldPlayfromDesc)
-VALUES			  		("Playstation 3")
+VALUES			  		('Playstation 3')
 INSERT INTO tblPlatforms 	(fldPlayfromDesc)
-VALUES			  		("Wii")
+VALUES			  		('Wii')
 INSERT INTO tblPlatforms 	(fldPlayfromDesc)
-VALUES			  		("PC")
+VALUES			  		('PC')
 INSERT INTO tblPlatforms 	(fldPlayfromDesc)
-VALUES			  		("PSP")
+VALUES			  		('PSP')
 
 CREATE TABLE tblGenres
 	(
@@ -90,19 +90,19 @@ CREATE TABLE tblGenres
 	)
 
 INSERT INTO tblGenres		(fldGenreDesc)
-VALUES					("Action")
+VALUES					('Action')
 INSERT INTO tblGenres		(fldGenreDesc)
-VALUES					("Action-Adventure")
+VALUES					('Action-Adventure')
 INSERT INTO tblGenres		(fldGenreDesc)
-VALUES					("Adventure")
+VALUES					('Adventure')
 INSERT INTO tblGenres		(fldGenreDesc)
-VALUES					("Role-Playing")
+VALUES					('Role-Playing')
 INSERT INTO tblGenres		(fldGenreDesc)
-VALUES					("Simulation")
+VALUES					('Simulation')
 INSERT INTO tblGenres		(fldGenreDesc)
-VALUES					("Strategy")
+VALUES					('Strategy')
 INSERT INTO tblGenres		(fldGenreDesc)
-VALUES					("Vehicle Simulation")
+VALUES					('Vehicle Simulation')
 
 CREATE TABLE tblRatings
 	(
@@ -111,19 +111,19 @@ CREATE TABLE tblRatings
 	)
 
 INSERT INTO tblRatings 	(fldRatingDesc)
-VALUES			("Early Childhood")
+VALUES			('Early Childhood')
 INSERT INTO tblRatings 	(fldRatingDesc)
-VALUES			("Everyone")
+VALUES			('Everyone')
 INSERT INTO tblRatings 	(fldRatingDesc)
-VALUES			("Everyone 10+")
+VALUES			('Everyone 10+')
 INSERT INTO tblRatings 	(fldRatingDesc)
-VALUES			("Teen")
+VALUES			('Teen')
 INSERT INTO tblRatings 	(fldRatingDesc)
-VALUES			("Mature")
+VALUES			('Mature')
 INSERT INTO tblRatings 	(fldRatingDesc)
-VALUES			("Adults Only")
+VALUES			('Adults Only')
 INSERT INTO tblRatings 	(fldRatingDesc)
-VALUES			("Rating Pending")
+VALUES			('Rating Pending')
 
 CREATE TABLE tblFormats
 	(
@@ -132,13 +132,13 @@ CREATE TABLE tblFormats
 	)
 
 INSERT INTO tblFormats 	(fldFormatDesc)
-VALUES			("CD")
+VALUES			('CD')
 INSERT INTO tblFormats 	(fldFormatDesc)
-VALUES			("DVD")	
+VALUES			('DVD')	
 INSERT INTO tblFormats 	(fldFormatDesc)
-VALUES			("Cartridge")
+VALUES			('Cartridge')
 INSERT INTO tblFormats 	(fldFormatDesc)
-VALUES			("Mini Disc")
+VALUES			('Mini Disc')
 
 CREATE TABLE tblSystemReq
 	(
@@ -174,11 +174,11 @@ CREATE TABLE tblStatus
 	)
 
 INSERT INTO tblStatus 	(fldStatusDesc)
-VALUES			("Availible")	
+VALUES			('Availible')	
 INSERT INTO tblStatus 	(fldStatusDesc)
-VALUES			("Low")
+VALUES			('Low')
 INSERT INTO tblStatus 	(fldStatusDesc)
-VALUES			("Out of Stock")
+VALUES			('Out of Stock')
 
 CREATE TABLE tblAccounts
 	(
