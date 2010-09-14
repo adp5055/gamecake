@@ -3,6 +3,7 @@
 <%@ Register Src = "~/Controls/Banner.ascx"     TagName = "Banner"      TagPrefix = "ucBan" %>
 <%@ Register Src = "~/Controls/Navigation.ascx" TagName = "Navigation"  TagPrefix = "ucNav" %>
 <%@ Register Src = "~/Controls/Footer.ascx"     TagName = "Footer"      TagPrefix = "ucFoo" %>
+<%@ Register Src = "~/Controls/NavBar.ascx"     TagName = "NavBar"      TagPrefix = "ucBar" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -11,37 +12,55 @@
     <title>Game Clinic</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            font-family: Calibri;
+        }
+    </style>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <table>
-        <tr>
-            <td>
-                <div id = "TopArea">
-                    <ucTop:TopArea ID = "topPart" runat = "server" style = "background-color:Green; height: 100px; width: 100%" />
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div id = "Banner">
-                    <ucBan:Banner ID = "nextPart" runat = "server" style = "background-color:Black; height: 100px; width: 100%" />
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div id = "Middle">
-                    <ucNav:Navigation ID = "leftPart" runat = "server" style = "background-color:White; height:400px; width: 20%" />
-                </div>
-            </td>
-        </tr>
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
-    </table>
+<form id="form1" runat="server">
+
+<div style = "height:100px; width:1024px; background-color: Green">
+    <ucTop:TopArea ID = "TopArea" runat = "server" />     
+</div>
+
+<div style = "height:100px; width:1024px; background-color: Black">
+    <ucBan:Banner ID = "Banner" runat = "server" />
+</div>
+
+<table>
+    <tr>
+        <td>
+            <div style = "height:400px; width: 256px; background-color:White"">
+                <ucNav:Navigation ID = "Navigation" runat = "server" />
+            </div>
+        </td>
+        <td>
+            <table>
+                <tr><td>
+                    <div style = "height:40; width: 768px; background-color:Black; font:calibri; color:White">
+                        <span class="style1">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        Games&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        Play Now&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        Sign Up&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        Search&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        About Us</span><ucBar:NavBar ID = "NavBar" runat = "server" />
+                    </div>
+                </td></tr>
+                <tr><td>
+                    <div style = "height:400; width: 768px; background-color:White">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+                    </div>
+                </td></tr>
+            </table>
+        </td>      
+    </tr> 
+</table>
+<div style = "height: 100px; width: 1024px; background-color:Gray">
+    <ucFoo:Footer ID = "Footer" runat = "server"/>
+</div>
     </form>
 </body>
 </html>
