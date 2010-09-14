@@ -197,3 +197,26 @@ INSERT INTO tblAccounts(fldFirstName, fldLastName, fldfldUserName, fldfldEmail,
 						fldPassword,  fldTransNum, fldLevelID,     fldActive) 
 VALUES				   ('John',       'Smith',     'Jsmith',       'Jsmith@gmail.com', 
 						'asdf1234',   '15',         '1', 		   'true' )
+
+INSERT INTO tblAccounts(fldFirstName, fldLastName, fldfldUserName, fldfldEmail,
+						fldPassword, fldTransNum, fldLevelID, fldActive) 
+VALUES					('Steve', 'Williams', 'Swilliams', 'swilliams@gmail.com',
+						 'aqswde12', '0', '1' , 'true' )
+
+
+INSERT INTO tblAccounts(fldFirstName, fldLastName, fldfldUserName, fldfldEmail,
+						fldPassword, fldTransNum, fldLevelID, fldActive) 
+VALUES					('Jim', 'Caulder', 'Jcaulder', 'Jcaulder@gmail.com',
+						 'piofj1256', '0', '1' , 'true' )
+
+
+INSERT INTO tblAccounts(fldFirstName, fldLastName, fldfldUserName, fldfldEmail,
+						fldPassword, fldTransNum, fldLevelID, fldActive) 
+VALUES					('Sparky', 'Jones', 'Sjones', 'Sjones@gmail.com',
+						 'afdas42', '0', '1' , 'true' )
+
+
+INSERT INTO tblAccounts(fldFirstName, fldLastName, fldfldUserName, fldfldEmail,
+						fldPassword, fldTransNum, fldLevelID, fldActive) 
+VALUES					('Claude', 'Thompson', 'Cthompson', 'Cthompson.com',
+						 'asd235', '0', '1' , 'true' )
