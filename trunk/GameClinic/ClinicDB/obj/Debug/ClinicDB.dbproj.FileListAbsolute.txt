@@ -1,0 +1,16 @@
+C:\Users\Li\Desktop\GameSite\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Script.PreDeployment.sql
+C:\Users\Li\Desktop\GameSite\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Script.PostDeployment.sql
+C:\Users\Li\Desktop\GameSite\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Database.sqlsettings
+C:\Users\Li\Desktop\GameSite\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Database.sqldeployment
+C:\Users\Li\Desktop\GameSite\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Database.sqlcmdvars
+C:\Users\Li\Desktop\GameSite\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB.deploymanifest
+C:\Users\Li\Desktop\GameSite\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB.dbschema
+C:\Users\Li\Desktop\GameSite\gamecake\GameClinic\ClinicDB\obj\Debug\ClinicDB.dbschema
+C:\Users\hhl5005\Desktop\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Script.PreDeployment.sql
+C:\Users\hhl5005\Desktop\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Script.PostDeployment.sql
+C:\Users\hhl5005\Desktop\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Database.sqlsettings
+C:\Users\hhl5005\Desktop\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Database.sqldeployment
+C:\Users\hhl5005\Desktop\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Database.sqlcmdvars
+C:\Users\hhl5005\Desktop\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB.deploymanifest
+C:\Users\hhl5005\Desktop\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB.dbschema
+C:\Users\hhl5005\Desktop\gamecake\GameClinic\ClinicDB\obj\Debug\ClinicDB.dbschema
