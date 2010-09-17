@@ -64,7 +64,7 @@ namespace ClinicWebApp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ClinicWebApp.Controls.NavBar NavBar;
+        protected global::System.Web.UI.UserControl NavBar;
         
         /// <summary>
         /// ContentPlaceHolder1 control.

@@ -9,58 +9,50 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <%--<link rel="stylesheet" type="text/css" href="Styles/Site.css"/>--%>
     <title>Game Clinic</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
-        .style1
+    .set_main_layout
         {
-            font-family: Calibri;
+            height:1024px;
+            width:768;
+            margin-left:auto;
+            margin-right:auto;
         }
     </style>
 </head>
 <body>
 <form id="form1" runat="server">
 
-<div style = "height:100px; width:1024px; background-color: Green">
-    <ucTop:TopArea ID = "TopArea" runat = "server" />     
-</div>
-
-<div style = "height:100px; width:1024px; background-color: Black">
-    <ucBan:Banner ID = "Banner" runat = "server" />
-</div>
-
-<table>
+<table class="set_main_layout">
     <tr>
-        <td>
-            <div style = "height:400px; width: 256px; background-color:White"">
-                <ucNav:Navigation ID = "Navigation" runat = "server" />
-            </div>
+        <td valign=top colspan="2" style="height:100px; width:1024px; background-color: Green;">
+            <ucTop:TopArea ID = "TopArea" runat = "server" />     
         </td>
-        <td>
-            <table>
-                <tr><td>
-                    <div style = "height:40; width: 768px; background-color:Black; font:calibri; color:White">
-                        <span class="style1">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                        Games&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                        Play Now&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                        Sign Up&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                        Search&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                        About Us</span><ucBar:NavBar ID = "NavBar" runat = "server" />
-                    </div>
-                </td></tr>
-                <tr><td>
-                    <div style = "height:400; width: 768px; background-color:White">
-                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
-                    </div>
-                </td></tr>
-            </table>
-        </td>      
-    </tr> 
+    </tr>
+    <tr>
+        <td valign=top colspan="2" style="height:100px; width:1024px; background-color: Black">
+            <ucBan:Banner ID = "Banner" runat = "server" />
+        </td>
+    </tr>
+    <tr>
+        <td valign=top style="width:150px">
+            <ucNav:Navigation ID = "Navigation" runat = "server" />   
+        </td>
+        <td valign=top style="width:874px">
+            <pre>          Home           Games           Play Now            Sign Up         Search          About Us</pre>
+            <ucBar:NavBar ID = "NavBar" runat = "server" />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+        </td>
+    </tr>
+    <tr>
+        <td valign=top colspan="2" style="height: 100px; width: 1024px; background-color:Gray">
+            <ucFoo:Footer ID = "Footer" runat = "server"/>
+        </td>
+    </tr>
 </table>
-<div style = "height: 100px; width: 1024px; background-color:Gray">
-    <ucFoo:Footer ID = "Footer" runat = "server"/>
-</div>
-    </form>
+</form>
 </body>
 </html>
