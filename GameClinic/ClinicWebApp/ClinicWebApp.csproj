@@ -63,6 +63,7 @@
     <Content Include="Controls\SiteControls.ascx" />
     <Content Include="Controls\TopArea.ascx" />
     <Content Include="Home.aspx" />
+    <Content Include="Styles\GameClinicStyle.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -129,6 +130,7 @@
     </Compile>
     <Compile Include="Controls\Logo1.ascx.cs">
       <DependentUpon>Logo1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Controls\Logo1.ascx.designer.cs">
       <DependentUpon>Logo1.ascx</DependentUpon>
