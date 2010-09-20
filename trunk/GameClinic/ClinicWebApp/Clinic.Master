@@ -9,46 +9,39 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <%--<link rel="stylesheet" type="text/css" href="Styles/Site.css"/>--%>
+    <link rel="stylesheet" type="text/css" href="~/Styles/GameClinicStyle.css"/>
     <title>Game Clinic</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <style type="text/css">
-    .set_main_layout
-        {
-            height:1024px;
-            width:768;
-            margin-left:auto;
-            margin-right:auto;
-        }
-    </style>
 </head>
 <body>
 <form id="form1" runat="server">
 
-<table class="set_main_layout">
+<table>
     <tr>
-        <td valign=top colspan="2" style="height:100px; width:1024px; background-color: Green;">
+        <td valign="top" colspan="2" class="toparea">
             <ucTop:TopArea ID = "TopArea" runat = "server" />     
         </td>
     </tr>
     <tr>
-        <td valign=top colspan="2" style="height:100px; width:1024px; background-color: Black">
+        <td valign="top" colspan="2" class="banner">
             <ucBan:Banner ID = "Banner" runat = "server" />
         </td>
     </tr>
     <tr>
-        <td valign=top style="width:150px">
+        <td valign="top" class="navigation">
             <ucNav:Navigation ID = "Navigation" runat = "server" />   
         </td>
-        <td valign=top style="width:874px">
+        <td valign="top" class="contentarea">
             <pre>          Home           Games           Play Now            Sign Up         Search          About Us</pre>
             <ucBar:NavBar ID = "NavBar" runat = "server" />
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+            <div class="contentholder">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+            </div>
         </td>
     </tr>
     <tr>
-        <td valign=top colspan="2" style="height: 100px; width: 1024px; background-color:Gray">
+        <td valign="top" colspan="2" class="footer">
             <ucFoo:Footer ID = "Footer" runat = "server"/>
         </td>
     </tr>
