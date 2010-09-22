@@ -6,3 +6,11 @@ C:\Users\Li\Desktop\GameSite\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Dat
 C:\Users\Li\Desktop\GameSite\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB.deploymanifest
 C:\Users\Li\Desktop\GameSite\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB.dbschema
 C:\Users\Li\Desktop\GameSite\gamecake\GameClinic\ClinicDB\obj\Debug\ClinicDB.dbschema
+C:\Users\The Awesomer\Desktop\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Script.PreDeployment.sql
+C:\Users\The Awesomer\Desktop\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Script.PostDeployment.sql
+C:\Users\The Awesomer\Desktop\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Database.sqlsettings
+C:\Users\The Awesomer\Desktop\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Database.sqldeployment
+C:\Users\The Awesomer\Desktop\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB_Database.sqlcmdvars
+C:\Users\The Awesomer\Desktop\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB.deploymanifest
+C:\Users\The Awesomer\Desktop\gamecake\GameClinic\ClinicDB\sql\debug\ClinicDB.dbschema
+C:\Users\The Awesomer\Desktop\gamecake\GameClinic\ClinicDB\obj\Debug\ClinicDB.dbschema
