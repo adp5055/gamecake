@@ -1,0 +1,44 @@
+﻿body 
+{
+    width:1024px;
+    height:768px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.toparea
+{
+    height:100px;
+    width:1024px;
+    background-color:Green;
+}
+
+.banner
+{
+    height:100px;
+    width:1024px;
+    background-color:Black;
+}
+
+.navigation
+{
+    height:724px;
+    width:150px;
+}
+
+.contentarea
+{
+    width:874px;
+}
+
+.contentholder
+{
+    
+}
+
+.footer
+{
+    height:100px;
+    width:1024px;
+    background-color:Gray;
+}
