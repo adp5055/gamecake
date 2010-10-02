@@ -1,29 +1,73 @@
 ﻿body 
 {
-    width:1024px;
     height:768px;
+    width:1024px; 
     margin-left:auto;
     margin-right:auto;
 }
 
-.toparea
+.sitecontrols
 {
-    height:100px;
     width:1024px;
-    background-color:Green;
+    background-color:Olive;
 }
 
-.banner
+.horizontallist li
 {
-    height:100px;
+    display:inline;
+    list-style-type:none;
+    height:25px;
+}
+
+.sitecontrolslisted
+{
+    
+}
+
+.cliniclogo
+{
+    padding-left:325px;
+    padding-right:350px;
+}
+
+.cart
+{
+    
+}
+
+.login
+{
+    
+}
+
+.specials_deals
+{
     width:1024px;
     background-color:Black;
+    color:White;
+}
+
+.specials
+{
+    padding-right:350px;
+}
+
+.dailydeals
+{
+   padding-right:350px;
+}
+
+.popularitems
+{
+   padding-left:25px; 
 }
 
 .navigation
 {
-    height:724px;
+    height:643px;
     width:150px;
+    border-left:1px solid black;
+    border-right:1px solid black;
 }
 
 .contentarea
@@ -33,12 +77,21 @@
 
 .contentholder
 {
-    
+    height:618px;
+}
+
+.navbar
+{
+    height:50px;
+    width:874px;
+    background-color:Olive;
 }
 
 .footer
 {
-    height:100px;
-    width:1024px;
-    background-color:Gray;
+    height:25px;
+    width:150px;
+    background-color:White;
+    border-left:1px solid black;
+    border-right:1px solid black;
 }

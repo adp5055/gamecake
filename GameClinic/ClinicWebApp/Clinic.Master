@@ -19,30 +19,60 @@
 
 <table>
     <tr>
-        <td valign="top" colspan="2" class="toparea">
-            <ucTop:TopArea ID = "TopArea" runat = "server" />     
+        <td colspan="2" class="sitecontrols">
+            <ul class="horizontallist">
+                <li class="sitecontrolslisted">Site Controls</li>
+                <li class="cliniclogo">Game Clinic Logo</li>
+                <li class="cart">Cart</li>
+                <li class="login">Login</li>
+            </ul>
         </td>
     </tr>
     <tr>
-        <td valign="top" colspan="2" class="banner">
-            <ucBan:Banner ID = "Banner" runat = "server" />
+        <td colspan="2" class="specials_deals">
+            <ul class="horizontallist">
+                <li class="specials">Specials</li>
+                <li class="dailydeals">Daily Deals</li>
+                <li class="popularitems">Popular Items 1</li>
+            </ul>
         </td>
     </tr>
     <tr>
         <td valign="top" class="navigation">
-            <ucNav:Navigation ID = "Navigation" runat = "server" />   
+            Quick Navigation
         </td>
-        <td valign="top" class="contentarea">
-            <pre>          Home           Games           Play Now            Sign Up         Search          About Us</pre>
-            <ucBar:NavBar ID = "NavBar" runat = "server" />
+        <td>
+            <div class="navbar">
+                <ul class="horizontallist">
+                    <li>Home</li>
+                    <li>Products</li>
+                    <li>Search</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Members Area</li>
+                    <li>Register</li>
+                </ul>
+            </div>
             <div class="contentholder">
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+                <asp:ContentPlaceHolder runat="server" id="ContentPlaceHolder1" />
+                Content Holder
             </div>
         </td>
     </tr>
     <tr>
-        <td valign="top" colspan="2" class="footer">
-            <ucFoo:Footer ID = "Footer" runat = "server"/>
+        <td class="footer">
+            IST 421 Team 2
+        </td>
+        <td class="navbar">
+            <ul class="horizontallist">
+                    <li>Home</li>
+                    <li>Products</li>
+                    <li>Search</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Members Area</li>
+                    <li>Register</li>
+                </ul>
         </td>
     </tr>
 </table>
