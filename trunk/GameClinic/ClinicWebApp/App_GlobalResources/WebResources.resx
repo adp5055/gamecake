@@ -126,6 +126,9 @@
   <data name="LabelHome" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="LabelLanguage" xml:space="preserve">
+    <value>Languages</value>
+  </data>
   <data name="LabelPlayNow" xml:space="preserve">
     <value>Play Now</value>
   </data>

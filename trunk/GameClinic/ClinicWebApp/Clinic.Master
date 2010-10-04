@@ -3,65 +3,59 @@
 <%@ Register Src = "~/Controls/Banner.ascx"     TagName = "Banner"      TagPrefix = "ucBan" %>
 <%@ Register Src = "~/Controls/Navigation.ascx" TagName = "Navigation"  TagPrefix = "ucNav" %>
 <%@ Register Src = "~/Controls/Footer.ascx"     TagName = "Footer"      TagPrefix = "ucFoo" %>
-<%@ Register Src = "~/Controls/NavBar.ascx"     TagName = "NavBar"      TagPrefix = "ucBar" %>
-
+<%@ Register Src="~/Controls/NavBar.ascx" TagName="NavBar" TagPrefix="ucBar" %>
+<%@ Register Src="~/Controls/Languages.ascx" TagName="LangBar" TagPrefix="ucLan" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link rel="stylesheet" type="text/css" href="~/Styles/GameClinicStyle.css"/>
+    <link rel="stylesheet" type="text/css" href="~/Styles/GameClinicStyle.css" />
     <title>Game Clinic</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-<form id="form1" runat="server">
-
-<table>
-    <tr>
-        <td colspan="2" class="sitecontrols">
-            <ul class="horizontallist">
-                <li class="sitecontrolslisted">Site Controls</li>
-                <li class="cliniclogo">Game Clinic Logo</li>
-                <li class="cart">Cart</li>
-                <li class="login">Login</li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td colspan="2" class="specials_deals">
-            <ul class="horizontallist">
-                <li class="specials">Specials</li>
-                <li class="dailydeals">Daily Deals</li>
-                <li class="popularitems">Popular Items 1</li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td valign="top" class="navigation">
-            Quick Navigation
-        </td>
-        <td>
-            <div class="navbar">
-            <ucBar:NavBar ID = "NAVBAR" runat = "server" class = "navbar" />
-            </div>
-            <div class="contentholder">
-                <asp:ContentPlaceHolder runat="server" id="ContentPlaceHolder1" />
-                Content Holder
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td class="footer">
-            IST 421 Team 2
-        </td>
-        <td class="navbar">
-            <div class = "navbar">
-                <ucBar:NavBar ID = "NAVBAR1" runat = "server" />
-            </div>
-        </td>
-    </tr>
-</table>
-</form>
+    <form id="form1" runat="server">
+    <table>
+        <tr>
+            <td colspan="2" class="sitecontrols">
+                <ucLan:LangBar ID="LANBAR" runat="server" class="sitecontrols" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="specials_deals">
+                <ul class="horizontallist">
+                    <li class="specials">Specials</li>
+                    <li class="dailydeals">Daily Deals</li>
+                    <li class="popularitems">Popular Items 1</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" class="navigation">
+                Quick Navigation
+            </td>
+            <td>
+                <div class="navbar">
+                    <ucBar:NavBar ID="NAVBAR" runat="server" />
+                </div>
+                <div class="contentholder">
+                    <asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolder1" />
+                    Content Holder
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="footer">
+                IST 421 Team 2
+            </td>
+            <td class="navbar">
+                <div class="navbar">
+                    <ucBar:NavBar ID="NAVBAR1" runat="server" />
+                </div>
+            </td>
+        </tr>
+    </table>
+    </form>
 </body>
 </html>

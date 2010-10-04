@@ -56,6 +56,7 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="Controls\Banner.ascx" />
     <Content Include="Controls\Footer.ascx" />
+    <Content Include="Controls\Languages.ascx" />
     <Content Include="Controls\Logo1.ascx" />
     <Content Include="Controls\Logo2.ascx" />
     <Content Include="Controls\NavBar.ascx" />
@@ -63,6 +64,9 @@
     <Content Include="Controls\SiteControls.ascx" />
     <Content Include="Controls\TopArea.ascx" />
     <Content Include="Home.aspx" />
+    <Content Include="Images\EnglishFlag.JPG" />
+    <Content Include="Images\GermanFlag.JPG" />
+    <Content Include="Images\SpanishFlag.JPG" />
     <Content Include="Pages\Contact.aspx" />
     <Content Include="Pages\Products.aspx" />
     <Content Include="Pages\Search.aspx" />
@@ -145,6 +149,13 @@
     </Compile>
     <Compile Include="Controls\Footer.ascx.designer.cs">
       <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Languages.ascx.cs">
+      <DependentUpon>Languages.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Languages.ascx.designer.cs">
+      <DependentUpon>Languages.ascx</DependentUpon>
     </Compile>
     <Compile Include="Controls\Logo1.ascx.cs">
       <DependentUpon>Logo1.ascx</DependentUpon>
@@ -233,7 +244,6 @@
     <Folder Include="App_Themes\Mario\" />
     <Folder Include="App_Themes\Pacman\" />
     <Folder Include="App_Themes\Zelda\" />
-    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />
