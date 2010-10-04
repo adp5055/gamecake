@@ -126,6 +126,9 @@
   <data name="LabelHome" xml:space="preserve">
     <value>Startseite</value>
   </data>
+  <data name="LabelLanguage" xml:space="preserve">
+    <value>Sprachen</value>
+  </data>
   <data name="LabelPlayNow" xml:space="preserve">
     <value>Jetzt spielen</value>
   </data>

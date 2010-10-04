@@ -88,6 +88,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Languages.
+        /// </summary>
+        internal static string LabelLanguage {
+            get {
+                return ResourceManager.GetString("LabelLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Play Now.
         /// </summary>
         internal static string LabelPlayNow {
