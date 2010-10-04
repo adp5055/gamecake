@@ -16,3 +16,8 @@ C:\Users\Andrew\Desktop\gameclinic092410\gamecake\GameClinic\ClinicWebApp\bin\Cl
 C:\Users\Andrew\Desktop\gameclinic092410\gamecake\GameClinic\ClinicWebApp\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Andrew\Desktop\gameclinic092410\gamecake\GameClinic\ClinicWebApp\obj\Debug\ClinicWebApp.dll
 C:\Users\Andrew\Desktop\gameclinic092410\gamecake\GameClinic\ClinicWebApp\obj\Debug\ClinicWebApp.pdb
+C:\Users\dgh5047\Desktop\GameCake\GameClinic\ClinicWebApp\bin\ClinicWebApp.dll
+C:\Users\dgh5047\Desktop\GameCake\GameClinic\ClinicWebApp\bin\ClinicWebApp.pdb
+C:\Users\dgh5047\Desktop\GameCake\GameClinic\ClinicWebApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dgh5047\Desktop\GameCake\GameClinic\ClinicWebApp\obj\Debug\ClinicWebApp.dll
+C:\Users\dgh5047\Desktop\GameCake\GameClinic\ClinicWebApp\obj\Debug\ClinicWebApp.pdb

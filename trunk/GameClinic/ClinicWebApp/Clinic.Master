@@ -43,15 +43,7 @@
         </td>
         <td>
             <div class="navbar">
-                <ul class="horizontallist">
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>Search</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Members Area</li>
-                    <li>Register</li>
-                </ul>
+            <ucBar:NavBar ID = "NAVBAR" runat = "server" class = "navbar" />
             </div>
             <div class="contentholder">
                 <asp:ContentPlaceHolder runat="server" id="ContentPlaceHolder1" />
@@ -64,15 +56,9 @@
             IST 421 Team 2
         </td>
         <td class="navbar">
-            <ul class="horizontallist">
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>Search</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Members Area</li>
-                    <li>Register</li>
-                </ul>
+            <div class = "navbar">
+                <ucBar:NavBar ID = "NAVBAR1" runat = "server" />
+            </div>
         </td>
     </tr>
 </table>

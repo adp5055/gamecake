@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true" >
   <siteMapNode url="" title=""  description="">
-    <siteMapNode url="~/Pages/Contact.aspx" title="$resources:WebResources, SiteMapHome" description="" />
-    <siteMapNode url="~/Pages/Prodcuts.aspx" title="$resources:WebResources, SiteMapProducts"  description="" />
-    <siteMapNode url="~/Pages/Search.aspx" title="$resources:WebResources, SiteMapSearch"  description="" />
+    <siteMapNode url ="~/Home.aspx"          title = "$resources:WebResources, SiteMapHome"     description =""/>
+    <siteMapNode url="~/Pages/Contact.aspx"  title = "$resources:WebResources, SiteMapContact"  description="" />
+    <siteMapNode url="~/Pages/Products.aspx" title = "$resources:WebResources, SiteMapProducts" description="" />
+    <siteMapNode url="~/Pages/Search.aspx"   title = "$resources:WebResources, SiteMapSearch"   description="" />
   </siteMapNode>
 </siteMap>

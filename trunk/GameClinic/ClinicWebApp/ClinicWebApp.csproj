@@ -230,7 +230,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="App_Themes\" />
+    <Folder Include="App_Themes\Mario\" />
+    <Folder Include="App_Themes\Pacman\" />
+    <Folder Include="App_Themes\Zelda\" />
     <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>

@@ -135,6 +135,9 @@
   <data name="SiteMapContact" xml:space="preserve">
     <value>Kontakt</value>
   </data>
+  <data name="SiteMapHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
   <data name="SiteMapProducts" xml:space="preserve">
     <value>Produkte</value>
   </data>
