@@ -4,7 +4,7 @@
 <%@ Register Src = "~/Controls/Navigation.ascx" TagName = "Navigation"  TagPrefix = "ucNav" %>
 <%@ Register Src = "~/Controls/Footer.ascx"     TagName = "Footer"      TagPrefix = "ucFoo" %>
 <%@ Register Src="~/Controls/NavBar.ascx" TagName="NavBar" TagPrefix="ucBar" %>
-<%@ Register Src="~/Controls/Languages.ascx" TagName="LangBar" TagPrefix="ucLan" %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -19,7 +19,7 @@
     <table>
         <tr>
             <td colspan="2" class="sitecontrols">
-                <ucLan:LangBar ID="LANBAR" runat="server" class="sitecontrols" />
+                <ucTop:TopArea ID="TopArea" runat="server" class="sitecontrols" />
             </td>
         </tr>
         <tr>

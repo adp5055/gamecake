@@ -57,11 +57,13 @@
     <Content Include="Controls\Banner.ascx" />
     <Content Include="Controls\Footer.ascx" />
     <Content Include="Controls\Languages.ascx" />
-    <Content Include="Controls\Logo1.ascx" />
-    <Content Include="Controls\Logo2.ascx" />
+    <Content Include="Controls\Login.ascx" />
+    <Content Include="Controls\Logo.ascx" />
     <Content Include="Controls\NavBar.ascx" />
     <Content Include="Controls\Navigation.ascx" />
+    <Content Include="Controls\ShopCart.ascx" />
     <Content Include="Controls\SiteControls.ascx" />
+    <Content Include="Controls\Themes.ascx" />
     <Content Include="Controls\TopArea.ascx" />
     <Content Include="Home.aspx" />
     <Content Include="Images\EnglishFlag.JPG" />
@@ -157,19 +159,19 @@
     <Compile Include="Controls\Languages.ascx.designer.cs">
       <DependentUpon>Languages.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Controls\Logo1.ascx.cs">
-      <DependentUpon>Logo1.ascx</DependentUpon>
+    <Compile Include="Controls\Login.ascx.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Controls\Logo1.ascx.designer.cs">
-      <DependentUpon>Logo1.ascx</DependentUpon>
+    <Compile Include="Controls\Login.ascx.designer.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Controls\Logo2.ascx.cs">
-      <DependentUpon>Logo2.ascx</DependentUpon>
+    <Compile Include="Controls\Logo.ascx.cs">
+      <DependentUpon>Logo.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Controls\Logo2.ascx.designer.cs">
-      <DependentUpon>Logo2.ascx</DependentUpon>
+    <Compile Include="Controls\Logo.ascx.designer.cs">
+      <DependentUpon>Logo.ascx</DependentUpon>
     </Compile>
     <Compile Include="Controls\NavBar.ascx.cs">
       <DependentUpon>NavBar.ascx</DependentUpon>
@@ -185,12 +187,26 @@
     <Compile Include="Controls\Navigation.ascx.designer.cs">
       <DependentUpon>Navigation.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Controls\ShopCart.ascx.cs">
+      <DependentUpon>ShopCart.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ShopCart.ascx.designer.cs">
+      <DependentUpon>ShopCart.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Controls\SiteControls.ascx.cs">
       <DependentUpon>SiteControls.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Controls\SiteControls.ascx.designer.cs">
       <DependentUpon>SiteControls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Themes.ascx.cs">
+      <DependentUpon>Themes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Themes.ascx.designer.cs">
+      <DependentUpon>Themes.ascx</DependentUpon>
     </Compile>
     <Compile Include="Controls\TopArea.ascx.cs">
       <DependentUpon>TopArea.ascx</DependentUpon>

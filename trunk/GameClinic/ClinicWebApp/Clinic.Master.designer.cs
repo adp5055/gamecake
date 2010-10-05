@@ -31,13 +31,13 @@ namespace ClinicWebApp {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// LANBAR control.
+        /// TopArea control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ClinicWebApp.Controls.Languages LANBAR;
+        protected global::ClinicWebApp.Controls.TopArea TopArea;
         
         /// <summary>
         /// NAVBAR control.
