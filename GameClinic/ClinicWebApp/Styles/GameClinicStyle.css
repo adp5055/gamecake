@@ -8,8 +8,9 @@
 
 .sitecontrols
 {
+	height:45px;
     width:1024px;
-    background-color:Olive;
+    background-color:Green;
 }
 
 .horizontallist li
@@ -30,14 +31,29 @@
     padding-right:350px;
 }
 
-.cart
+.language
 {
-    
+	width: 137px;
+}
+
+.themes
+{
+	width: 200px;
+}
+
+.logo
+{
+	width: 350px;
 }
 
 .login
 {
-    
+    width: 200px;
+}
+
+.cart
+{
+    width: 137px;
 }
 
 .specials_deals
@@ -84,7 +100,7 @@
 {
     height:50px;
     width:874px;
-    background-color:Olive;
+    background-color:Green;
 }
 
 .footer
