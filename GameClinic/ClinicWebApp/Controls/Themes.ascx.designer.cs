@@ -11,5 +11,32 @@ namespace ClinicWebApp.Controls {
     
     
     public partial class Themes {
+        
+        /// <summary>
+        /// ImgBtnZelda control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton ImgBtnZelda;
+        
+        /// <summary>
+        /// ImgBtnMario control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton ImgBtnMario;
+        
+        /// <summary>
+        /// ImgBtnSonic control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton ImgBtnSonic;
     }
 }

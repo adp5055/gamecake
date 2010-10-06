@@ -67,9 +67,17 @@
     <Content Include="Controls\TopArea.ascx" />
     <Content Include="Home.aspx" />
     <Content Include="Images\EnglishFlag.JPG" />
+    <Content Include="Images\gclogo.jpg" />
     <Content Include="Images\GermanFlag.JPG" />
+    <Content Include="Images\mario.jpg" />
+    <Content Include="Images\shopcart.jpg" />
+    <Content Include="Images\sonic.jpg" />
     <Content Include="Images\SpanishFlag.JPG" />
+    <Content Include="Images\zelda.jpg" />
+    <Content Include="Pages\AboutUs.aspx" />
     <Content Include="Pages\Contact.aspx" />
+    <Content Include="Pages\Detail.aspx" />
+    <Content Include="Pages\Member.aspx" />
     <Content Include="Pages\Products.aspx" />
     <Content Include="Pages\Search.aspx" />
     <Content Include="Styles\GameClinicStyle.css" />
@@ -232,12 +240,33 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Detail.aspx.cs">
+      <DependentUpon>Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Detail.aspx.designer.cs">
+      <DependentUpon>Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Member.aspx.cs">
+      <DependentUpon>Member.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Member.aspx.designer.cs">
+      <DependentUpon>Member.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Products.aspx.cs">
       <DependentUpon>Products.aspx</DependentUpon>
