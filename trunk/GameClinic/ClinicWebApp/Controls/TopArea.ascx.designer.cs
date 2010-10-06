@@ -94,12 +94,12 @@ namespace ClinicWebApp.Controls {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl SignIn;
         
         /// <summary>
-        /// Login1 control.
+        /// Loginn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ClinicWebApp.Controls.Login Login1;
+        protected global::ClinicWebApp.Controls.Login Loginn;
     }
 }

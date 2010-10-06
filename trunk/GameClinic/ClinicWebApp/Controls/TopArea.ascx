@@ -8,28 +8,28 @@
 <table>
 <tr>
     <td>
-        <div id = "Lang" class = "languages" runat = "server">
+        <div id = "Lang" class = "languages" cellpadding="2" runat = "server">
             <ucLan:Languages ID="Flags" runat="server" />
         </div>
     </td>
     <td>
-        <div id = "Theme" class = "themes" runat = "server">
+        <div id = "Theme" class = "themes" cellpadding="2" runat = "server">
             <ucThe:Themes ID = "Themes" runat = "server" />
         </div>
     </td>
     <td>
-        <div id = "Log" class = "logo" runat = "server">
+        <div id = "Log" class = "logo" cellpadding="2" runat = "server">
             <ucPic:Logo ID = "Logo" runat = "server" />
         </div>    
     </td>
     <td>
-        <div id = "shop" class = "cart" runat = "server">
+        <div id = "shop" class = "cart" cellpadding="2" runat = "server">
             <ucSho:ShopCart ID = "ShopCart" runat = "server" />
         </div>
     </td>
-    <td>
-        <div id = "SignIn" class = "login" runat = "server">
-            <ucLog:Login ID = "Login1" runat = "server" />
+    <td >
+        <div id = "SignIn" class = "login" cellpadding="2" runat = "server">
+            <ucLog:Login ID = "Loginn" runat = "server" />
         </div>    
     </td>
 </tr>

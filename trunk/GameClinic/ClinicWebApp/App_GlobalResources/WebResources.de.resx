@@ -135,11 +135,17 @@
   <data name="LabelRegister" xml:space="preserve">
     <value>Registrieren</value>
   </data>
+  <data name="SiteMapAboutUs" xml:space="preserve">
+    <value>Über uns</value>
+  </data>
   <data name="SiteMapContact" xml:space="preserve">
     <value>Kontakt</value>
   </data>
   <data name="SiteMapHome" xml:space="preserve">
     <value>Home</value>
+  </data>
+  <data name="SiteMapMember" xml:space="preserve">
+    <value>Mitglied Zone</value>
   </data>
   <data name="SiteMapProducts" xml:space="preserve">
     <value>Produkte</value>

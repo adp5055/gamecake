@@ -115,6 +115,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to About Us.
+        /// </summary>
+        internal static string SiteMapAboutUs {
+            get {
+                return ResourceManager.GetString("SiteMapAboutUs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Contact Us.
         /// </summary>
         internal static string SiteMapContact {
@@ -129,6 +138,15 @@ namespace Resources {
         internal static string SiteMapHome {
             get {
                 return ResourceManager.GetString("SiteMapHome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Member Area.
+        /// </summary>
+        internal static string SiteMapMember {
+            get {
+                return ResourceManager.GetString("SiteMapMember", resourceCulture);
             }
         }
         
