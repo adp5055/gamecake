@@ -1,0 +1,114 @@
+﻿body 
+{
+    height:768px;
+    width:1024px; 
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.sitecontrols
+{
+	height:45px;
+    width:1024px;
+    background-color:Green;
+}
+
+.horizontallist li
+{
+    display:inline;
+    list-style-type:none;
+    height:25px;
+}
+
+.sitecontrolslisted
+{
+    
+}
+
+.cliniclogo
+{
+    padding-left:325px;
+    padding-right:350px;
+}
+
+.language
+{
+	width: 137px;
+}
+
+.themes
+{
+	width: 200px;
+}
+
+.logo
+{
+	width: 350px;
+	
+}
+
+.login
+{
+    width: 200px;
+}
+
+.cart
+{
+    width: 137px;
+}
+
+.specials_deals
+{
+    width:1024px;
+    background-color:Black;
+    color:White;
+}
+
+.specials
+{
+    padding-right:350px;
+}
+
+.dailydeals
+{
+   padding-right:350px;
+}
+
+.popularitems
+{
+   padding-left:25px; 
+}
+
+.navigation
+{
+    height:643px;
+    width:150px;
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+
+.contentarea
+{
+    width:874px;
+}
+
+.contentholder
+{
+    height:618px;
+}
+
+.navbar
+{
+    height:50px;
+    width:874px;
+    background-color:Green;
+}
+
+.footer
+{
+    height:25px;
+    width:150px;
+    background-color:White;
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
