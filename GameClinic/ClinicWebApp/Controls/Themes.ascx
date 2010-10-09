@@ -7,10 +7,13 @@
 </style>
 <span class="style1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; THEMES</span><br />
 &nbsp;
-<asp:imagebutton id="ImgBtnZelda" runat="server" src="../Images/zelda.jpg" />
+<asp:imagebutton id="ImgBtnZelda" runat="server" src="../Images/zelda.jpg" 
+    onclick="ImgBtnZelda_Click" AutoPostBack = "true"/>
 &nbsp;
-<asp:imagebutton id="ImgBtnMario" runat="server" src="../Images/mario.jpg" />
+<asp:imagebutton id="ImgBtnMario" runat="server" src="../Images/mario.jpg" 
+    onclick="ImgBtnMario_Click" AutoPostBack = "true"/>
 &nbsp;
-<asp:imagebutton id="ImgBtnSonic" runat="server" src="../Images/sonic.jpg" />
+<asp:imagebutton id="ImgBtnSonic" runat="server" src="../Images/sonic.jpg" 
+    onclick="ImgBtnSonic_Click" AutoPostBack = "true" />
 
 

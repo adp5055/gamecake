@@ -54,6 +54,9 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="App_Themes\Mario\Styles\GameClinicStyle.css" />
+    <Content Include="App_Themes\Sonic\Styles\GameClinicStyle.css" />
+    <Content Include="App_Themes\Zelda\Styles\GameClinicStyle.css" />
     <Content Include="Controls\Banner.ascx" />
     <Content Include="Controls\Footer.ascx" />
     <Content Include="Controls\Languages.ascx" />
@@ -82,7 +85,6 @@
     <Content Include="Pages\Search.aspx" />
     <Content Include="Styles\GameClinicStyle.css" />
     <Content Include="Styles\Site.css" />
-    <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
@@ -223,13 +225,6 @@
     <Compile Include="Controls\TopArea.ascx.designer.cs">
       <DependentUpon>TopArea.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -286,9 +281,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="App_Themes\Mario\" />
-    <Folder Include="App_Themes\Pacman\" />
-    <Folder Include="App_Themes\Zelda\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />
@@ -327,7 +319,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>1080</DevelopmentServerPort>
+          <DevelopmentServerPort>6514</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
