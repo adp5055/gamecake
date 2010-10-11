@@ -14,37 +14,24 @@ namespace ClinicWebApp.Controls
             
         }
 
-        protected void Page_PreInIt(object sender, EventArgs e)
-        {
-            switch (Request.QueryString["theme"])
-            {
-                case "Zelda":
-                    Page.Theme = "Zelda";
-                    break;
-                case "Sonic":
-                    Page.Theme = "Sonic";
-                    break;
-                case "Mario":
-                    Page.Theme = "Mario";
-                    break;
-            }
-        }
-
         protected void ImgBtnZelda_Click(object sender, ImageClickEventArgs e)
         {
-            Session["Theme"] = "Zelda";
+            //Session["Theme"] = "Zelda";
+            ViewState["Theme"] = "Zelda";
             Response.Redirect(Request.RawUrl);
         }
 
         protected void ImgBtnMario_Click(object sender, ImageClickEventArgs e)
         {
-            Session["Theme"] = "Mario";
+            //Session["Theme"] = "Mario";
+            ViewState["Theme"] = "Mario";
             Response.Redirect(Request.RawUrl);
         }
 
         protected void ImgBtnSonic_Click(object sender, ImageClickEventArgs e)
         {
-            Session["Theme"] = "Sonic";
+            //Session["Theme"] = "Sonic";
+            ViewState["Theme"] = "Sonic";
             Response.Redirect(Request.RawUrl);
         }
     }
