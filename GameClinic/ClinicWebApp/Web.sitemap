@@ -7,5 +7,6 @@
     <siteMapNode url="~/Pages/Member.aspx"   title = "$resources:WebResources, SiteMapMember"   description="" />
     <siteMapNode url="~/Pages/Search.aspx"   title = "$resources:WebResources, SiteMapSearch"   description="" />
     <siteMapNode url="~/Pages/AboutUs.aspx"   title = "$resources:WebResources, SiteMapAboutUs"   description="" />
+    <siteMapNode url="~/Pages/Register.aspx" title= "$resources:WebResources, SiteMapRegister" description="" />
   </siteMapNode>
 </siteMap>

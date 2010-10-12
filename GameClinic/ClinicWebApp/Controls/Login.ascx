@@ -2,6 +2,6 @@
 <p>
     <asp:Button ID="Button1" runat="server" Text="Sign In" />
 &nbsp;
-    <asp:Button ID="Button2" runat="server" Text="Register" />
+    <input type="button" onclick="window.location.href='Pages/Register.aspx'" value="Register" runat="server" />
 </p>
 
