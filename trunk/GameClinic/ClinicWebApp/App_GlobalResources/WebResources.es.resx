@@ -135,6 +135,30 @@
   <data name="LabelRegister" xml:space="preserve">
     <value>Regístrate</value>
   </data>
+  <data name="lblDateOfBirth" xml:space="preserve">
+    <value>Fecha de Nacimiento</value>
+  </data>
+  <data name="lblEmailAddress" xml:space="preserve">
+    <value>Dirección de correo electrónico</value>
+  </data>
+  <data name="lblFirstName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="lblGender" xml:space="preserve">
+    <value>Género</value>
+  </data>
+  <data name="lblLastName" xml:space="preserve">
+    <value>Apellido</value>
+  </data>
+  <data name="panPersonalDetails" xml:space="preserve">
+    <value>Datos de carácter personal</value>
+  </data>
+  <data name="radFemale" xml:space="preserve">
+    <value>Mujeres</value>
+  </data>
+  <data name="radMale" xml:space="preserve">
+    <value>Hombre</value>
+  </data>
   <data name="SiteMapAboutUs" xml:space="preserve">
     <value>Quiénes somos</value>
   </data>
@@ -150,7 +174,31 @@
   <data name="SiteMapProducts" xml:space="preserve">
     <value>Productos</value>
   </data>
+  <data name="SiteMapRegister" xml:space="preserve">
+    <value>Registro</value>
+  </data>
   <data name="SiteMapSearch" xml:space="preserve">
     <value>Búsqueda</value>
+  </data>
+  <data name="btnSubmit" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="lblCity" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
+  <data name="lblPhone" xml:space="preserve">
+    <value>Número de teléfono</value>
+  </data>
+  <data name="lblState" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="lblStreetAddress" xml:space="preserve">
+    <value>Dirección de la calle</value>
+  </data>
+  <data name="lblZip" xml:space="preserve">
+    <value>Código postal</value>
+  </data>
+  <data name="panAddress" xml:space="preserve">
+    <value>Dirección</value>
   </data>
 </root>

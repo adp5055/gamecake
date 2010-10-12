@@ -25,26 +25,28 @@ namespace ClinicWebApp.App_Code
 
         public void page_PreInit(object sender, EventArgs e)
         {
-            //Page page = sender as Page;
-            //if (page != null)
-            //{
-            //    page.MasterPageFile = "~/Clinic.Master";
-            //}
+        //    Page page = sender as Page;
+        //    BasePage basepage = new BasePage();
+            
+        //    if (page != null)
+        //    {
+        //        page.MasterPageFile = "~/Clinic.Master";
+        //    }
+            
+        //    string theme = ViewState["Theme"];
 
-            string theme = ViewState["Theme"];
-
-            switch (theme)
-            {
-                case "Zelda":
-                    BasePage.Theme = "Zelda";
-                    break;
-                case "Sonic":
-                    Page.Theme = "Sonic";
-                    break;
-                case "Mario":
-                    Page.Theme = "Mario";
-                    break;
-            }
+        //    switch (theme)
+        //    {
+        //        case "Zelda":
+        //            basepage.Theme = "Zelda";
+        //            break;
+        //        case "Sonic":
+        //            page.Theme = "Sonic";
+        //            break;
+        //        case "Mario":
+        //            page.Theme = "Mario";
+        //            break;
+        //    }
         }
 
         public void Dispose()

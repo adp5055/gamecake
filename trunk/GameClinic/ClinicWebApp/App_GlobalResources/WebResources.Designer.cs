@@ -61,6 +61,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Submit.
+        /// </summary>
+        internal static string btnSubmit {
+            get {
+                return ResourceManager.GetString("btnSubmit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to About Us.
         /// </summary>
         internal static string LabelAbout {
@@ -115,6 +124,132 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to City.
+        /// </summary>
+        internal static string lblCity {
+            get {
+                return ResourceManager.GetString("lblCity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date of Birth.
+        /// </summary>
+        internal static string lblDateOfBirth {
+            get {
+                return ResourceManager.GetString("lblDateOfBirth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email Address.
+        /// </summary>
+        internal static string lblEmailAddress {
+            get {
+                return ResourceManager.GetString("lblEmailAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to First Name.
+        /// </summary>
+        internal static string lblFirstName {
+            get {
+                return ResourceManager.GetString("lblFirstName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gender.
+        /// </summary>
+        internal static string lblGender {
+            get {
+                return ResourceManager.GetString("lblGender", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last Name.
+        /// </summary>
+        internal static string lblLastName {
+            get {
+                return ResourceManager.GetString("lblLastName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Phone Number.
+        /// </summary>
+        internal static string lblPhone {
+            get {
+                return ResourceManager.GetString("lblPhone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to State.
+        /// </summary>
+        internal static string lblState {
+            get {
+                return ResourceManager.GetString("lblState", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Street Address.
+        /// </summary>
+        internal static string lblStreetAddress {
+            get {
+                return ResourceManager.GetString("lblStreetAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zip.
+        /// </summary>
+        internal static string lblZip {
+            get {
+                return ResourceManager.GetString("lblZip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Address.
+        /// </summary>
+        internal static string panAddress {
+            get {
+                return ResourceManager.GetString("panAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Personal Details.
+        /// </summary>
+        internal static string panPersonalDetails {
+            get {
+                return ResourceManager.GetString("panPersonalDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Female.
+        /// </summary>
+        internal static string radFemale {
+            get {
+                return ResourceManager.GetString("radFemale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Male.
+        /// </summary>
+        internal static string radMale {
+            get {
+                return ResourceManager.GetString("radMale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to About Us.
         /// </summary>
         internal static string SiteMapAboutUs {
@@ -156,6 +291,15 @@ namespace Resources {
         internal static string SiteMapProducts {
             get {
                 return ResourceManager.GetString("SiteMapProducts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Register.
+        /// </summary>
+        internal static string SiteMapRegister {
+            get {
+                return ResourceManager.GetString("SiteMapRegister", resourceCulture);
             }
         }
         

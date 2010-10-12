@@ -82,6 +82,7 @@
     <Content Include="Pages\Detail.aspx" />
     <Content Include="Pages\Member.aspx" />
     <Content Include="Pages\Products.aspx" />
+    <Content Include="Pages\Register.aspx" />
     <Content Include="Pages\Search.aspx" />
     <Content Include="Styles\GameClinicStyle.css" />
     <Content Include="Styles\Site.css" />
@@ -129,6 +130,7 @@
     <Compile Include="App_Code\BasePage.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="App_Code\Entities\Account.cs" />
     <Compile Include="App_Code\MasterPageModule.cs" />
     <Compile Include="App_GlobalResources\WebResources.de.designer.cs">
       <AutoGen>True</AutoGen>
@@ -273,6 +275,13 @@
     </Compile>
     <Compile Include="Pages\Products.aspx.designer.cs">
       <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Search.aspx.cs">
       <DependentUpon>Search.aspx</DependentUpon>

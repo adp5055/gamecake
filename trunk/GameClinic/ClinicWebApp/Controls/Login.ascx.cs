@@ -13,5 +13,10 @@ namespace ClinicWebApp.Controls
         {
 
         }
+
+        protected void registerpage(object sender, EventArgs e)
+        {
+
+        }
     }
 }
