@@ -11,7 +11,37 @@ namespace ClinicWebApp.Controls
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if ((string)Session["Theme"] == "Zelda")
+            {
+                picMario.Visible = false;
+                picSonic.Visible = false;
+                picZelda.Visible = true;
+            }
 
+            if ((string)Session["Theme"] == "Mario")
+            {
+                picMario.Visible = true;
+                picSonic.Visible = false;
+                picZelda.Visible = false;
+            }
+
+            if ((string)Session["Theme"] == "Sonic")
+            {
+                picMario.Visible = false;
+                picSonic.Visible = true;
+                picZelda.Visible = false;
+            }
+
+            if ((string)Session["Theme"] == null)
+            {
+                picMario.Visible = false;
+                picSonic.Visible = false;
+                picZelda.Visible = true;
+            }
+            
         }
+
+        
+
     }
 }
