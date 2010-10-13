@@ -1,4 +1,4 @@
-﻿<%@ Page Title = "About Us" Language="C#" MasterPageFile="~/Clinic.Master" AutoEventWireup="true" CodeBehind="AboutUs.aspx.cs" Inherits="BasePage" %>
+﻿<%@ Page Title = "About Us" Language="C#" MasterPageFile="~/Clinic.Master" AutoEventWireup="true" CodeBehind="AboutUs.aspx.cs" Inherits="ClinicWebApp.Pages.AboutUs" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

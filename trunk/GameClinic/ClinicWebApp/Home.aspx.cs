@@ -27,5 +27,21 @@ namespace ClinicWebApp
             }
             base.InitializeCulture();
         }
+
+        protected void Page_PreInit(object sender, EventArgs e)
+        {
+            switch ((string)Session["Theme"])
+            {
+                case "Zelda":
+                    Page.Theme = "Zelda";
+                    break;
+                case "Sonic":
+                    Page.Theme = "Sonic";
+                    break;
+                case "Mario":
+                    Page.Theme = "Mario";
+                    break;
+            }
+        }
     }
 }

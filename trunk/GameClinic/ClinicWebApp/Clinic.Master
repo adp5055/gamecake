@@ -3,7 +3,7 @@
 <%@ Register Src = "~/Controls/Banner.ascx"     TagName = "Banner"      TagPrefix = "ucBan" %>
 <%@ Register Src = "~/Controls/Navigation.ascx" TagName = "Navigation"  TagPrefix = "ucNav" %>
 <%@ Register Src = "~/Controls/Footer.ascx"     TagName = "Footer"      TagPrefix = "ucFoo" %>
-<%@ Register Src="~/Controls/NavBar.ascx" TagName="NavBar" TagPrefix="ucBar" %>
+<%@ Register Src = "~/Controls/NavBar.ascx"     TagName = "NavBar"      TagPrefix = "ucBar" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -35,11 +35,13 @@
         </tr>
         <tr>
             <td valign="top" class="navigation">
-                Quick Navigation
+                <div>
+                    <ucNav:Navigation ID = "navigation" runat="server" />
+                </div>
             </td>
             <td>
                 <div class="navbar">
-                    <ucBar:NavBar ID="NAVBAR" runat="server" />
+                    <ucBar:NavBar ID="NAVBAR2" runat="server" />
                 </div>
                 <div class="contentholder">
                     <asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolder1" />

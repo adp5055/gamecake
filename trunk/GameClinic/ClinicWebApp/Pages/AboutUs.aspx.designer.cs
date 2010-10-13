@@ -7,7 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
-
-public partial class BasePage {
+namespace ClinicWebApp.Pages {
+    
+    
+    public partial class AboutUs {
+    }
 }

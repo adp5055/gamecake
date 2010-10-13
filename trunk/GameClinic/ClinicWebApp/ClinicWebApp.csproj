@@ -72,10 +72,13 @@
     <Content Include="Images\EnglishFlag.JPG" />
     <Content Include="Images\gclogo.jpg" />
     <Content Include="Images\GermanFlag.JPG" />
+    <Content Include="Images\mario-big.jpg" />
     <Content Include="Images\mario.jpg" />
     <Content Include="Images\shopcart.jpg" />
+    <Content Include="Images\sonic-big.jpg" />
     <Content Include="Images\sonic.jpg" />
     <Content Include="Images\SpanishFlag.JPG" />
+    <Content Include="Images\zelda-pic.jpg" />
     <Content Include="Images\zelda.jpg" />
     <Content Include="Pages\AboutUs.aspx" />
     <Content Include="Pages\Contact.aspx" />
@@ -127,11 +130,7 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
-    <Compile Include="App_Code\BasePage.cs">
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
     <Compile Include="App_Code\Entities\Account.cs" />
-    <Compile Include="App_Code\MasterPageModule.cs" />
     <Compile Include="App_GlobalResources\WebResources.de.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

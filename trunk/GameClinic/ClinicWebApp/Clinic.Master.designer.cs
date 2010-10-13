@@ -40,13 +40,22 @@ namespace ClinicWebApp {
         protected global::ClinicWebApp.Controls.TopArea TopArea;
         
         /// <summary>
-        /// NAVBAR control.
+        /// navigation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ClinicWebApp.Controls.NavBar NAVBAR;
+        protected global::ClinicWebApp.Controls.Navigation navigation;
+        
+        /// <summary>
+        /// NAVBAR2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ClinicWebApp.Controls.NavBar NAVBAR2;
         
         /// <summary>
         /// ContentPlaceHolder1 control.
