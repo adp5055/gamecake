@@ -61,6 +61,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Clear Form.
+        /// </summary>
+        internal static string btnClear {
+            get {
+                return ResourceManager.GetString("btnClear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Submit.
         /// </summary>
         internal static string btnSubmit {
@@ -133,6 +142,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Comments or Questions.
+        /// </summary>
+        internal static string lblComments {
+            get {
+                return ResourceManager.GetString("lblComments", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Date of Birth.
         /// </summary>
         internal static string lblDateOfBirth {
@@ -174,6 +192,15 @@ namespace Resources {
         internal static string lblLastName {
             get {
                 return ResourceManager.GetString("lblLastName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        internal static string lblName {
+            get {
+                return ResourceManager.GetString("lblName", resourceCulture);
             }
         }
         
