@@ -201,4 +201,13 @@
   <data name="panAddress" xml:space="preserve">
     <value>Dirección</value>
   </data>
+  <data name="btnClear" xml:space="preserve">
+    <value>Borrar el Formulario</value>
+  </data>
+  <data name="lblComments" xml:space="preserve">
+    <value>Comentarios o Preguntas</value>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
 </root>

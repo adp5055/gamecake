@@ -43,5 +43,13 @@ namespace ClinicWebApp.Pages
                     break;
             }
         }
+
+        protected void btnClear_Click(object sender, EventArgs e)
+        {
+            txtCity.Text = " ";
+            txtComments.Text = " ";
+            txtEmail.Text = " ";
+            txtName.Text = " ";
+        }
     }
 }
