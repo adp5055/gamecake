@@ -112,22 +112,31 @@ namespace ClinicWebApp.Pages {
         protected global::System.Web.UI.WebControls.Label lblDateOfBirth;
         
         /// <summary>
-        /// txtDateOfBirth control.
+        /// txtMonth control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDateOfBirth;
+        protected global::System.Web.UI.WebControls.TextBox txtMonth;
         
         /// <summary>
-        /// valDateOfBirth control.
+        /// txtDay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator valDateOfBirth;
+        protected global::System.Web.UI.WebControls.TextBox txtDay;
+        
+        /// <summary>
+        /// txtYear control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtYear;
         
         /// <summary>
         /// lblEmailAddress control.
@@ -265,13 +274,13 @@ namespace ClinicWebApp.Pages {
         protected global::System.Web.UI.WebControls.TextBox txtZip;
         
         /// <summary>
-        /// RequiredFieldValidator1 control.
+        /// valZip control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator valZip;
         
         /// <summary>
         /// lblPhone control.
@@ -292,13 +301,13 @@ namespace ClinicWebApp.Pages {
         protected global::System.Web.UI.WebControls.TextBox txtPhone;
         
         /// <summary>
-        /// valPhone control.
+        /// RegularExpressionValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator valPhone;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
         
         /// <summary>
         /// Submit control.

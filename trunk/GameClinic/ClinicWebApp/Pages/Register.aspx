@@ -16,6 +16,9 @@
                     <asp:RadioButton ID="radFemale" Text="<%$ Resources:WebResources, radFemale %>" runat="server"
                         GroupName="radGender" />
                 </td>
+                <td>
+                    
+                </td>
             </tr>
             <tr>
                 <td>
@@ -47,11 +50,13 @@
                         runat="server" />
                 </td>
                 <td>
-                    <asp:TextBox ID="txtDateOfBirth" runat="server" />
+                    <asp:TextBox ID="txtMonth" runat="server" Width="50px">MM</asp:TextBox>
+                    <asp:TextBox ID="txtDay" runat="server" Width="50px" >DD</asp:TextBox>
+                    <asp:TextBox ID="txtYear" runat="server" Width="50px">YYYY</asp:TextBox>
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="valDateOfBirth" runat="server" ControlToValidate="txtDateOfBirth"
-                        ErrorMessage="*You must enter a date of birth" Display="Dynamic" />
+                    <%--<asp:RequiredFieldValidator ID="valDateOfBirth" runat="server" ControlToValidate="txtMonth"
+                        ErrorMessage="*You must enter a date of birth" Display="Dynamic" />--%>
                 </td>
             </tr>
             <tr>
@@ -64,7 +69,7 @@
                 </td>
                 <td>
                     <asp:RequiredFieldValidator ID="valEmailAddress" runat="server" ControlToValidate="txtEmailAddress"
-                        ErrorMessage="*You must enter a email address" Display="Dynamic" />
+                        ErrorMessage="*You must enter an email address" Display="Dynamic" />
                 </td>
             </tr>
         </table>
@@ -116,8 +121,7 @@
                     <asp:TextBox ID="txtZip" runat="server" />
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtZip"
-                        ErrorMessage="*You must enter a zip code" Display="Dynamic" />
+                    <asp:RegularExpressionValidator ID="valZip" runat="server" ControlToValidate="txtZip" ValidationExpression="\d{5}" ErrorMessage="*Zip code must be 5 digits" Display="Dynamic" />
                 </td>
             </tr>
             <tr>
@@ -128,8 +132,7 @@
                     <asp:TextBox ID="txtPhone" runat="server" />
                 </td>
                 <td>
-                    <asp:RequiredFieldValidator ID="valPhone" runat="server" ControlToValidate="txtPhone"
-                        ErrorMessage="*You must enter a phone number" Display="Dynamic" />
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtPhone" ValidationExpression="\d{10}" ErrorMessage="*Phone number must be 10 digits" Display="Dynamic" />
                 </td>
             </tr>
         </table>

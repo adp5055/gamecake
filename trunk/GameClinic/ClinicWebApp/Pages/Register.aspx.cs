@@ -11,6 +11,25 @@ namespace ClinicWebApp.Pages
 {
     public partial class Register : System.Web.UI.Page
     {
+        private int _month, _day, _year;
+
+        public int Year
+        {
+            get { return _year; }
+            set { _year = value; }
+        }
+
+        public int Day
+        {
+            get { return _day; }
+            set { _day = value; }
+        }
+
+        public int Month
+        {
+            get { return _month; }
+            set { _month = value; }
+        }
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -25,7 +44,7 @@ namespace ClinicWebApp.Pages
                 cust_account.Gender = "Male";
             cust_account.First_name = txtFirstName.Text;
             cust_account.Last_name = txtLastName.Text;
-            cust_account.Dateofbirth = Convert.ToDateTime(txtDateOfBirth.Text);
+            //cust_account.Dateofbirth = Convert.ToDateTime(txtDateOfBirth.Text);
             cust_account.Email_address = txtEmailAddress.Text;
             cust_account.City = txtCity.Text;
             cust_account.State = txtState.Text;
@@ -33,6 +52,11 @@ namespace ClinicWebApp.Pages
             cust_account.Zip = Convert.ToInt32(txtZip.Text);
             cust_account.Phone_number = Convert.ToInt32(txtPhone.Text);
 
+            Month = Convert.ToInt16(txtMonth);
+            Day = Convert.ToInt16(txtDay);
+            Year = Convert.ToInt16(txtYear);
+            DateTime birthdate = new DateTime(Year, Month, Day);
+            cust_account.Dateofbirth = birthdate;
         }
 
         protected override void InitializeCulture()
