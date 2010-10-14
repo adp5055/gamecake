@@ -3,3 +3,8 @@ C:\Users\Dbaby\Desktop\Game\gamecake\GameClinic\ClinicWebApp\bin\ClinicWebApp.pd
 C:\Users\Dbaby\Desktop\Game\gamecake\GameClinic\ClinicWebApp\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Dbaby\Desktop\Game\gamecake\GameClinic\ClinicWebApp\obj\Debug\ClinicWebApp.dll
 C:\Users\Dbaby\Desktop\Game\gamecake\GameClinic\ClinicWebApp\obj\Debug\ClinicWebApp.pdb
+C:\Users\Li\Desktop\GameSite\GameClinic\ClinicWebApp\bin\ClinicWebApp.dll
+C:\Users\Li\Desktop\GameSite\GameClinic\ClinicWebApp\bin\ClinicWebApp.pdb
+C:\Users\Li\Desktop\GameSite\GameClinic\ClinicWebApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Li\Desktop\GameSite\GameClinic\ClinicWebApp\obj\Debug\ClinicWebApp.dll
+C:\Users\Li\Desktop\GameSite\GameClinic\ClinicWebApp\obj\Debug\ClinicWebApp.pdb

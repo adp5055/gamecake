@@ -14,6 +14,18 @@ namespace ClinicWebApp.Controls
 
         }
 
+        protected void btnLogin_onClick(object sender, EventArgs e)
+        {
+            btnLogin.Visible = false;
+            btnLogout.Visible = true;
+        }
+
+        protected void btnLogout_onClick(object sender, EventArgs e)
+        {
+            btnLogin.Visible = true;
+            btnLogout.Visible = false;
+        }
+
         protected void registerpage(object sender, EventArgs e)
         {
 
