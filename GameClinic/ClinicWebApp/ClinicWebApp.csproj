@@ -58,6 +58,7 @@
     <Content Include="App_Themes\Sonic\Styles\GameClinicStyle.css" />
     <Content Include="App_Themes\Zelda\Styles\GameClinicStyle.css" />
     <Content Include="Controls\Banner.ascx" />
+    <Content Include="Controls\BreadCrumbs.ascx" />
     <Content Include="Controls\Footer.ascx" />
     <Content Include="Controls\Languages.ascx" />
     <Content Include="Controls\Login.ascx" />
@@ -159,6 +160,13 @@
     </Compile>
     <Compile Include="Controls\Banner.ascx.designer.cs">
       <DependentUpon>Banner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BreadCrumbs.ascx.cs">
+      <DependentUpon>BreadCrumbs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\BreadCrumbs.ascx.designer.cs">
+      <DependentUpon>BreadCrumbs.ascx</DependentUpon>
     </Compile>
     <Compile Include="Controls\Footer.ascx.cs">
       <DependentUpon>Footer.ascx</DependentUpon>

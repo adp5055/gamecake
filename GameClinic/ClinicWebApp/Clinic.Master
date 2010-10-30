@@ -4,6 +4,7 @@
 <%@ Register Src = "~/Controls/Navigation.ascx" TagName = "Navigation"  TagPrefix = "ucNav" %>
 <%@ Register Src = "~/Controls/Footer.ascx"     TagName = "Footer"      TagPrefix = "ucFoo" %>
 <%@ Register Src = "~/Controls/NavBar.ascx"     TagName = "NavBar"      TagPrefix = "ucBar" %>
+<%@ Register Src = "~/Controls/BreadCrumbs.ascx"TagName = "Crumbs"      TagPrefix = "ucBr" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -18,25 +19,21 @@
 </head>
 <body>
     <form id="form1" runat="server">
+    <div class="sitecontrols">
+        <ucTop:TopArea ID="TopArea" runat="server" class="sitecontrols" />
+    </div>
+    <div class="specials_deals">
+        <ul class="horizontallist">
+            <li class="specials">Specials</li>
+            <li class="dailydeals">Daily Deals</li>
+            <li class="popularitems">Popular Items 1</li>
+        </ul>
+    </div>
     <table>
-        <tr>
-            <td colspan="2" class="sitecontrols">
-                <ucTop:TopArea ID="TopArea" runat="server" class="sitecontrols" />
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2" class="specials_deals">
-                <ul class="horizontallist">
-                    <li class="specials">Specials</li>
-                    <li class="dailydeals">Daily Deals</li>
-                    <li class="popularitems">Popular Items 1</li>
-                </ul>
-            </td>
-        </tr>
         <tr>
             <td valign="top" class="navigation">
                 <div>
-                    <ucNav:Navigation ID = "navigation" runat="server" />
+                    <ucNav:Navigation ID="navigation" runat="server" />
                 </div>
             </td>
             <td>
@@ -51,7 +48,7 @@
         </tr>
         <tr>
             <td class="footer">
-                IST 421 Team 2
+                <center>IST 421 Team 2</center>
             </td>
             <td class="navbar">
                 <div class="navbar">
