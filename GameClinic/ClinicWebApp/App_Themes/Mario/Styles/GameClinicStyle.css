@@ -8,10 +8,10 @@
 
 .sitecontrols
 {
-	height:45px;
+	height:60px;
     width:1024px;
-    background-color:Red;
-    color: White;
+    background-color:Green;
+    color:white;
 }
 
 .horizontallist li
@@ -63,6 +63,7 @@
     width:1024px;
     background-color:Black;
     color:White;
+    height:60px;
 }
 
 .specials
@@ -111,7 +112,13 @@
 {
     height:25px;
     width:150px;
-    background-color:White;
+    background-color:black;
+    color:White;
     border-left:1px solid black;
     border-right:1px solid black;
+}
+
+.bread
+{
+	height: 15px;
 }
