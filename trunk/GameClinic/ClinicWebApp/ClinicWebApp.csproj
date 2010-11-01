@@ -132,6 +132,7 @@
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Code\Entities\Account.cs" />
+    <Content Include="App_Code\Entities\Search.cs" />
     <Compile Include="App_GlobalResources\WebResources.de.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
