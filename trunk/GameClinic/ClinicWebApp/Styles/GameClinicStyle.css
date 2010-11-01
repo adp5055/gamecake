@@ -62,6 +62,7 @@
     width:1024px;
     background-color:Black;
     color:White;
+    height:60px;
 }
 
 .specials
@@ -113,4 +114,9 @@
     background-color:White;
     border-left:1px solid black;
     border-right:1px solid black;
+}
+
+.bread
+{
+	height: 15px;
 }

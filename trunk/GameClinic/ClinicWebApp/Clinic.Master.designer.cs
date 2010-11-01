@@ -49,6 +49,15 @@ namespace ClinicWebApp {
         protected global::ClinicWebApp.Controls.Navigation navigation;
         
         /// <summary>
+        /// breadd control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ClinicWebApp.Controls.BreadCrumbs breadd;
+        
+        /// <summary>
         /// NAVBAR2 control.
         /// </summary>
         /// <remarks>

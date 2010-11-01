@@ -8,7 +8,7 @@
 
 .sitecontrols
 {
-	height:45px;
+	height:60px;
     width:1024px;
     background-color:Green;
 }
@@ -62,6 +62,7 @@
     width:1024px;
     background-color:Black;
     color:White;
+    height:60px;
 }
 
 .specials
@@ -101,7 +102,7 @@
 
 .navbar
 {
-    height:50px;
+    height:25px;
     width:874px;
     background-color:Green;
 }
@@ -110,7 +111,13 @@
 {
     height:25px;
     width:150px;
-    background-color:White;
+    background-color:black;
+    color:White;
     border-left:1px solid black;
     border-right:1px solid black;
+}
+
+.bread
+{
+	height: 15px;
 }

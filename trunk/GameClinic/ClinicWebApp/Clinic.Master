@@ -31,18 +31,30 @@
     </div>
     <table>
         <tr>
-            <td valign="top" class="navigation">
+            <td rowspan = "4" class="navigation">
                 <div>
                     <ucNav:Navigation ID="navigation" runat="server" />
                 </div>
             </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <ucBr:Crumbs ID = "breadd" class = "bread" runat = "server" />
+                </div>
+            </td>
+        </tr>
+        <tr>
             <td>
                 <div class="navbar">
                     <ucBar:NavBar ID="NAVBAR2" runat="server" />
                 </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <div class="contentholder">
                     <asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolder1" />
-                    Content Holder
                 </div>
             </td>
         </tr>
