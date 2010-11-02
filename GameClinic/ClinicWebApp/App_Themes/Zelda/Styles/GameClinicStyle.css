@@ -1,6 +1,6 @@
 ﻿body 
 {
-    height:768px;
+    height:868px;
     width:1024px; 
     margin-left:auto;
     margin-right:auto;
@@ -59,9 +59,9 @@
 .specials_deals
 {
     width:1024px;
-    background-color:White;
+    background-color:Black;
     color:White;
-    height:150px;
+    height:135px;
 }
 
 .specials
@@ -81,7 +81,7 @@
 
 .navigation
 {
-    height:633px;
+    height:733px;
     width:150px;
     border-left:1px solid black;
     border-right:1px solid black;
@@ -96,7 +96,7 @@
 
 .contentholder
 {
-    height:603px;
+    height:703px;
     width:874px;
     background-color:White;
     color:Black;
@@ -104,22 +104,25 @@
 
 .navbar
 {
-    height:15px;
+    height:20px;
     width:874px;
     background-color:Green;
     border-left:1px solid black;
     border-right:1px solid black;
     border-bottom:1px solid black;
     border-top:1px solid black;
-    color:Black;
 }
 
 .footer
 {
-    height:15px;
     width:150px;
     background-color:black;
     color:White;
+}
+
+.bottom
+{
+	height:20px;
     border-left:1px solid black;
     border-right:1px solid black;
     border-bottom:1px solid black;
@@ -128,7 +131,7 @@
 
 .bread
 {
-	height:15px;
+	height:20px;
 	width:874px;
 	background-color:white;
 	border-left:1px solid black;
