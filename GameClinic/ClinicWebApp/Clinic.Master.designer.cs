@@ -40,6 +40,15 @@ namespace ClinicWebApp {
         protected global::ClinicWebApp.Controls.TopArea TopArea;
         
         /// <summary>
+        /// SpecialsBar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::ClinicWebApp.Controls.SpecialsBar SpecialsBar;
+        
+        /// <summary>
         /// navigation control.
         /// </summary>
         /// <remarks>
@@ -58,13 +67,13 @@ namespace ClinicWebApp {
         protected global::ClinicWebApp.Controls.BreadCrumbs breadd;
         
         /// <summary>
-        /// NAVBAR2 control.
+        /// NAVBAR1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ClinicWebApp.Controls.NavBar NAVBAR2;
+        protected global::ClinicWebApp.Controls.NavBar NAVBAR1;
         
         /// <summary>
         /// ContentPlaceHolder1 control.
@@ -76,12 +85,12 @@ namespace ClinicWebApp {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
         
         /// <summary>
-        /// NAVBAR1 control.
+        /// NAVBAR2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ClinicWebApp.Controls.NavBar NAVBAR1;
+        protected global::ClinicWebApp.Controls.NavBar NAVBAR2;
     }
 }
