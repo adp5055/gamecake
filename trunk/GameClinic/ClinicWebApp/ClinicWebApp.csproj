@@ -74,12 +74,16 @@
     <Content Include="Controls\TopArea.ascx" />
     <Content Include="Controls\TopGames.ascx" />
     <Content Include="Home.aspx" />
+    <Content Include="Images\bc2.jpg" />
+    <Content Include="Images\borderlands.jpg" />
     <Content Include="Images\EnglishFlag.JPG" />
+    <Content Include="Images\fallout.jpg" />
     <Content Include="Images\gclogo.jpg" />
     <Content Include="Images\GermanFlag.JPG" />
     <Content Include="Images\icon.jpg" />
     <Content Include="Images\mario-big.jpg" />
     <Content Include="Images\mario.jpg" />
+    <Content Include="Images\mw2.jpg" />
     <Content Include="Images\shopcart.jpg" />
     <Content Include="Images\sonic-big.jpg" />
     <Content Include="Images\sonic.jpg" />

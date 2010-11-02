@@ -31,8 +31,8 @@
     </div>
     <table>
         <tr>
-            <td rowspan = "4" class="navigation">
-                <div>
+            <td rowspan = "4">
+                <div class = "navigation">
                     <ucNav:Navigation ID="navigation" runat="server" />
                 </div>
             </td>
@@ -58,11 +58,11 @@
                 </div>
             </td>
         </tr>
-        <tr>
+        <tr class = "bottom">
             <td class="footer">
                 <center>IST 421 Team 2</center>
             </td>
-            <td class="navbar">
+            <td>
                 <div class="navbar">
                     <ucBar:NavBar ID="NAVBAR2" runat="server" />
                 </div>

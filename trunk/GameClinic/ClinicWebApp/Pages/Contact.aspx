@@ -27,7 +27,7 @@ ErrorMessage="* Please Supply a valid e-mail address." Display="dynamic" />
 </tr>
 <tr>
 <td><asp:Label ID="lblComments" Text="<%$ Resources: WebResources, lblComments %>" runat="server" /></td>
-<td><asp:TextBox ID="txtComments" Height="400px" Width="400px" runat="server" /></td>
+<td><asp:TextBox ID="txtComments" TextMode="MultiLine" Height="400px" Width="400px" runat="server" /></td>
 <td><asp:RequiredFieldValidator ID="valComments" runat="server" ControlToValidate="txtComments" 
 ErrorMessage=" * Please do not leave this blank" />
 </td>
