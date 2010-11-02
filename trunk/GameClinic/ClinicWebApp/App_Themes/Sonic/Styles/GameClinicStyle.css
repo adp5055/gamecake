@@ -10,8 +10,11 @@
 {
 	height:60px;
     width:1024px;
-    background-color:Blue;
-    color: White;
+    background-color:Green;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
 }
 
 .horizontallist li
@@ -19,11 +22,6 @@
     display:inline;
     list-style-type:none;
     height:25px;
-}
-
-.sitecontrolslisted
-{
-    
 }
 
 .cliniclogo
@@ -61,29 +59,29 @@
 .specials_deals
 {
     width:1024px;
-    background-color:Black;
+    background-color:White;
     color:White;
-    height:60px;
+    height:150px;
 }
 
 .specials
 {
-    padding-right:350px;
+    width:112px;
 }
 
 .dailydeals
 {
-   padding-right:350px;
+   width:112px;
 }
 
 .popularitems
 {
-   padding-left:25px; 
+   width:800px;
 }
 
 .navigation
 {
-    height:643px;
+    height:633px;
     width:150px;
     border-left:1px solid black;
     border-right:1px solid black;
@@ -98,27 +96,43 @@
 
 .contentholder
 {
-    height:618px;
+    height:603px;
+    width:874px;
+    background-color:White;
+    color:Black;
 }
 
 .navbar
 {
-    height:50px;
+    height:15px;
     width:874px;
-    background-color:Blue;
+    background-color:Green;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+    color:Black;
 }
 
 .footer
 {
-    height:25px;
+    height:15px;
     width:150px;
-        background-color:black;
+    background-color:black;
     color:White;
     border-left:1px solid black;
     border-right:1px solid black;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
 }
 
 .bread
 {
-	height: 15px;
+	height:15px;
+	width:874px;
+	background-color:white;
+	border-left:1px solid black;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
 }

@@ -18,3 +18,8 @@ C:\Users\Dbaby\Documents\My Dropbox\GameClinic\GameClinic\ClinicWebApp\bin\Clini
 C:\Users\Dbaby\Documents\My Dropbox\GameClinic\GameClinic\ClinicWebApp\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Dbaby\Documents\My Dropbox\GameClinic\GameClinic\ClinicWebApp\obj\Debug\ClinicWebApp.dll
 C:\Users\Dbaby\Documents\My Dropbox\GameClinic\GameClinic\ClinicWebApp\obj\Debug\ClinicWebApp.pdb
+C:\Users\Li\Desktop\My Dropbox\GameClinic\GameClinic\ClinicWebApp\bin\ClinicWebApp.dll
+C:\Users\Li\Desktop\My Dropbox\GameClinic\GameClinic\ClinicWebApp\bin\ClinicWebApp.pdb
+C:\Users\Li\Desktop\My Dropbox\GameClinic\GameClinic\ClinicWebApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Li\Desktop\My Dropbox\GameClinic\GameClinic\ClinicWebApp\obj\Debug\ClinicWebApp.dll
+C:\Users\Li\Desktop\My Dropbox\GameClinic\GameClinic\ClinicWebApp\obj\Debug\ClinicWebApp.pdb

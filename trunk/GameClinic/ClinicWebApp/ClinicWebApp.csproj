@@ -59,6 +59,7 @@
     <Content Include="App_Themes\Zelda\Styles\GameClinicStyle.css" />
     <Content Include="Controls\Banner.ascx" />
     <Content Include="Controls\BreadCrumbs.ascx" />
+    <Content Include="Controls\DailyDeals.ascx" />
     <Content Include="Controls\Footer.ascx" />
     <Content Include="Controls\Languages.ascx" />
     <Content Include="Controls\Login.ascx" />
@@ -67,12 +68,16 @@
     <Content Include="Controls\Navigation.ascx" />
     <Content Include="Controls\ShopCart.ascx" />
     <Content Include="Controls\SiteControls.ascx" />
+    <Content Include="Controls\Specials.ascx" />
+    <Content Include="Controls\SpecialsBar.ascx" />
     <Content Include="Controls\Themes.ascx" />
     <Content Include="Controls\TopArea.ascx" />
+    <Content Include="Controls\TopGames.ascx" />
     <Content Include="Home.aspx" />
     <Content Include="Images\EnglishFlag.JPG" />
     <Content Include="Images\gclogo.jpg" />
     <Content Include="Images\GermanFlag.JPG" />
+    <Content Include="Images\icon.jpg" />
     <Content Include="Images\mario-big.jpg" />
     <Content Include="Images\mario.jpg" />
     <Content Include="Images\shopcart.jpg" />
@@ -169,6 +174,13 @@
     <Compile Include="Controls\BreadCrumbs.ascx.designer.cs">
       <DependentUpon>BreadCrumbs.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Controls\DailyDeals.ascx.cs">
+      <DependentUpon>DailyDeals.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DailyDeals.ascx.designer.cs">
+      <DependentUpon>DailyDeals.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Controls\Footer.ascx.cs">
       <DependentUpon>Footer.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -225,6 +237,20 @@
     <Compile Include="Controls\SiteControls.ascx.designer.cs">
       <DependentUpon>SiteControls.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Controls\Specials.ascx.cs">
+      <DependentUpon>Specials.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Specials.ascx.designer.cs">
+      <DependentUpon>Specials.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SpecialsBar.ascx.cs">
+      <DependentUpon>SpecialsBar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SpecialsBar.ascx.designer.cs">
+      <DependentUpon>SpecialsBar.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Controls\Themes.ascx.cs">
       <DependentUpon>Themes.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -238,6 +264,13 @@
     </Compile>
     <Compile Include="Controls\TopArea.ascx.designer.cs">
       <DependentUpon>TopArea.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TopGames.ascx.cs">
+      <DependentUpon>TopGames.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\TopGames.ascx.designer.cs">
+      <DependentUpon>TopGames.ascx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

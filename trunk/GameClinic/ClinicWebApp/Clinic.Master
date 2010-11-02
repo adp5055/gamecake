@@ -1,10 +1,13 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Clinic.master.cs" Inherits="ClinicWebApp.Clinic" %>
+﻿<%--Team 2 | IST 421 Final Project --%>
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Clinic.master.cs" Inherits="ClinicWebApp.Clinic" %>
 <%@ Register Src = "~/Controls/TopArea.ascx"    TagName = "TopArea"     TagPrefix = "ucTop" %>
 <%@ Register Src = "~/Controls/Banner.ascx"     TagName = "Banner"      TagPrefix = "ucBan" %>
 <%@ Register Src = "~/Controls/Navigation.ascx" TagName = "Navigation"  TagPrefix = "ucNav" %>
 <%@ Register Src = "~/Controls/Footer.ascx"     TagName = "Footer"      TagPrefix = "ucFoo" %>
 <%@ Register Src = "~/Controls/NavBar.ascx"     TagName = "NavBar"      TagPrefix = "ucBar" %>
 <%@ Register Src = "~/Controls/BreadCrumbs.ascx"TagName = "Crumbs"      TagPrefix = "ucBr" %>
+<%@ Register Src = "~/Controls/SpecialsBar.ascx"   TagName = "SpecialsBar"      TagPrefix = "ucSpe" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -13,6 +16,7 @@
     <link href="App_Themes/Mario/Styles/GameClinicStyle.css" rel="stylesheet" type="text/css" />
     <link href="App_Themes/Sonic/Styles/GameClinicStyle.css" rel="stylesheet" type="text/css" />
     <link href="App_Themes/Zelda/Styles/GameClinicStyle.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href= "Images/icon.jpg" />
     <title>Game Clinic</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -20,14 +24,10 @@
 <body>
     <form id="form1" runat="server">
     <div class="sitecontrols">
-        <ucTop:TopArea ID="TopArea" runat="server" class="sitecontrols" />
+        <ucTop:TopArea ID="TopArea" runat="server" />
     </div>
     <div class="specials_deals">
-        <ul class="horizontallist">
-            <li class="specials">Specials</li>
-            <li class="dailydeals">Daily Deals</li>
-            <li class="popularitems">Popular Items 1</li>
-        </ul>
+        <ucSpe:SpecialsBar ID="SpecialsBar" runat="server"/>
     </div>
     <table>
         <tr>
@@ -39,15 +39,15 @@
         </tr>
         <tr>
             <td>
-                <div>
-                    <ucBr:Crumbs ID = "breadd" class = "bread" runat = "server" />
+                <div class = "bread">
+                    <ucBr:Crumbs ID = "breadd" runat = "server" />
                 </div>
             </td>
         </tr>
         <tr>
             <td>
                 <div class="navbar">
-                    <ucBar:NavBar ID="NAVBAR2" runat="server" />
+                    <ucBar:NavBar ID="NAVBAR1" runat="server" />
                 </div>
             </td>
         </tr>
@@ -64,7 +64,7 @@
             </td>
             <td class="navbar">
                 <div class="navbar">
-                    <ucBar:NavBar ID="NAVBAR1" runat="server" />
+                    <ucBar:NavBar ID="NAVBAR2" runat="server" />
                 </div>
             </td>
         </tr>
