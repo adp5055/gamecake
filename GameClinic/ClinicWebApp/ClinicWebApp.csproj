@@ -81,6 +81,7 @@
     <Content Include="Images\gclogo.jpg" />
     <Content Include="Images\GermanFlag.JPG" />
     <Content Include="Images\icon.jpg" />
+    <Content Include="Images\logo.png" />
     <Content Include="Images\mario-big.jpg" />
     <Content Include="Images\mario.jpg" />
     <Content Include="Images\mw2.jpg" />

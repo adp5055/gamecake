@@ -40,9 +40,14 @@
 	width: 200px;
 }
 
+.controls
+{
+	width: 400px;
+}
+
 .logo
 {
-	width: 350px;
+	width: 307px;
 	
 }
 
@@ -59,9 +64,9 @@
 .specials_deals
 {
     width:1024px;
-    background-color:White;
+    background-color:Black;
     color:White;
-    height:150px;
+    height:135px;
 }
 
 .specials
@@ -104,7 +109,7 @@
 
 .navbar
 {
-    height:15px;
+    height:20px;
     width:874px;
     background-color:Green;
     border-left:1px solid black;
@@ -122,7 +127,7 @@
 
 .bottom
 {
-	height:15px;
+	height:20px;
     border-left:1px solid black;
     border-right:1px solid black;
     border-bottom:1px solid black;
@@ -131,7 +136,7 @@
 
 .bread
 {
-	height:15px;
+	height:25px;
 	width:874px;
 	background-color:white;
 	border-left:1px solid black;
