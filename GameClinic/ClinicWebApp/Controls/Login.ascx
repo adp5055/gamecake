@@ -5,22 +5,16 @@
 &nbsp;
     <input type="Button" onclick="window.location.href='Pages/Register.aspx'" value="Sign up" runat="server" CausesValidation="false" />
 </p>--%>
-<p>
-
-    <asp:Label ID="Label1" runat="server" style="font-size: small" Text="Email:"></asp:Label>
-&nbsp;
-    <asp:TextBox ID="TextBox1" runat="server" Height="16px" Width="107px"></asp:TextBox>
-&nbsp;
-    <asp:Label ID="Label2" runat="server" style="font-size: small" Text="Password:"></asp:Label>
-&nbsp;
-    <asp:TextBox ID="TextBox2" runat="server" Height="16px" Width="107px"></asp:TextBox>
-
-&nbsp;
-    <asp:Button ID="Button1" runat="server" Height="16px" 
-        style="font-size: xx-small" Text="Login" />
-&nbsp;&nbsp;
-    <asp:Button ID="Button2" runat="server" Height="16px" 
-        style="font-size: xx-small" Text="Register" />
-
-</p>
-
+<div>
+    <asp:Label ID="Label1" runat="server" Style="font-size: small" Text="Email:" />
+    &nbsp;<asp:TextBox ID="TextBox1" runat="server" Width="100px" 
+        Font-Size="X-Small" Height="16px"></asp:TextBox>
+    &nbsp;<asp:Label ID="Label2" runat="server" Style="font-size: small" Text="Password:" />
+    &nbsp;
+    <asp:TextBox ID="TextBox2" runat="server" Width="100px" Height="16px" 
+        Font-Size="X-Small"></asp:TextBox>
+    &nbsp;<asp:Button ID="Button1" runat="server" Style="font-size: xx-small"
+        Text="Login" Height="16px" onclick="Button1_Click" />
+    &nbsp;<asp:Button ID="Button2" runat="server" Style="font-size: xx-small"
+        Text="Register" Height="16px" onclick="Button2_Click" />
+</div>

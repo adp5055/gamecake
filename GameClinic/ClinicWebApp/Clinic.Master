@@ -2,9 +2,7 @@
 
 <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Clinic.master.cs" Inherits="ClinicWebApp.Clinic" %>
 <%@ Register Src = "~/Controls/TopArea.ascx"    TagName = "TopArea"     TagPrefix = "ucTop" %>
-<%@ Register Src = "~/Controls/Banner.ascx"     TagName = "Banner"      TagPrefix = "ucBan" %>
 <%@ Register Src = "~/Controls/Navigation.ascx" TagName = "Navigation"  TagPrefix = "ucNav" %>
-<%@ Register Src = "~/Controls/Footer.ascx"     TagName = "Footer"      TagPrefix = "ucFoo" %>
 <%@ Register Src = "~/Controls/NavBar.ascx"     TagName = "NavBar"      TagPrefix = "ucBar" %>
 <%@ Register Src = "~/Controls/BreadCrumbs.ascx"TagName = "Crumbs"      TagPrefix = "ucBr" %>
 <%@ Register Src = "~/Controls/SpecialsBar.ascx"   TagName = "SpecialsBar"      TagPrefix = "ucSpe" %>
@@ -23,14 +21,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div class="sitecontrols">
+    <div class = "sitecontrols" >
         <ucTop:TopArea ID="TopArea" runat="server" />
     </div>
-    <div>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<%--    <div>
         <asp:Label runat="server" Text="GAME CLINIC" ID="sitename" 
             style="text-align: center; font-size: x-small"></asp:Label>
-    </div>
+    </div>--%>
     <div class="specials_deals">
         <ucSpe:SpecialsBar ID="SpecialsBar" runat="server"/>
     </div>
@@ -51,7 +48,7 @@
         </tr>
         <tr>
             <td>
-                <div class="navbar">
+                <div class = "navbar">
                     <ucBar:NavBar ID="NAVBAR1" runat="server" />
                 </div>
             </td>
@@ -68,7 +65,7 @@
                 <center>IST 421 Team 2</center>
             </td>
             <td>
-                <div class="navbar">
+                <div class = "navbar">
                     <ucBar:NavBar ID="NAVBAR2" runat="server" />
                 </div>
             </td>

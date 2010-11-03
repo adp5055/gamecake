@@ -13,15 +13,6 @@ namespace ClinicWebApp.Controls {
     public partial class SiteControls {
         
         /// <summary>
-        /// controlss control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label controlss;
-        
-        /// <summary>
         /// EnglishFlag control.
         /// </summary>
         /// <remarks>
