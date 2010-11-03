@@ -3,18 +3,12 @@
 <style type="text/css">
     .style1
     {
-        width: 144px;
-        height: 170px;
     }
     .style2
     {
-        width: 140px;
-        height: 170px;
     }
     .style3
     {
-        width: 139px;
-        height: 170px;
     }
     .list
     {
@@ -23,14 +17,21 @@
 </style>
 
 &nbsp;
-<asp:Label ID="Label1" runat="server" Font-Bold="True" Text="Quick Navigation"></asp:Label>
+<asp:Label ID="Label1" runat="server" Font-Bold="True" Text="QUICK NAVIGATION" 
+    style="font-size: small; font-family: Arial"></asp:Label>
 
+<p style = "border-top:1px solid black">
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:Image id="picMario" alt="Mario" class="style1" 
+        src="../Images/mario-big.jpg" runat = "server" Height="151px" Width="105px" /></p>
 <p>
-    <asp:Image id="picMario" alt="Mario" class="style1" src="../Images/mario-big.jpg" runat = "server" /></p>
-<p>
-    <asp:Image id="picSonic" alt="Sonic" class="style2" src="../Images/sonic-big.jpg" runat = "server" /></p>
-<p>
-    <asp:Image id="picZelda" alt="Zelda" class="style3" src="../Images/zelda-pic.jpg" runat = "server" /></p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:Image id="picSonic" alt="Sonic" class="style2" 
+        src="../Images/sonic-big.jpg" runat = "server" Height="130px" Width="83px" /></p>
+<p style = "border-bottom:1px solid black">
+    <asp:Image id="picZelda" alt="Zelda" class="style3" 
+        src="../Images/zelda-pic.jpg" runat = "server" Height="130px" Width="116px" /></p>
+
 <p class = "list">
     <asp:Label ID="Genres" runat="server" Font-Size="Small" Text="-GENRES"></asp:Label><br />
     &nbsp;&nbsp;&nbsp;&nbsp;

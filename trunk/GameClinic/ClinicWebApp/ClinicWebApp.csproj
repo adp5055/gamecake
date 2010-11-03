@@ -57,13 +57,11 @@
     <Content Include="App_Themes\Mario\Styles\GameClinicStyle.css" />
     <Content Include="App_Themes\Sonic\Styles\GameClinicStyle.css" />
     <Content Include="App_Themes\Zelda\Styles\GameClinicStyle.css" />
-    <Content Include="Controls\Banner.ascx" />
     <Content Include="Controls\BreadCrumbs.ascx" />
     <Content Include="Controls\DailyDeals.ascx" />
     <Content Include="Controls\Footer.ascx" />
     <Content Include="Controls\Languages.ascx" />
     <Content Include="Controls\Login.ascx" />
-    <Content Include="Controls\Logo.ascx" />
     <Content Include="Controls\NavBar.ascx" />
     <Content Include="Controls\Navigation.ascx" />
     <Content Include="Controls\ShopCart.ascx" />
@@ -86,6 +84,7 @@
     <Content Include="Images\mario.jpg" />
     <Content Include="Images\mw2.jpg" />
     <Content Include="Images\shopcart.jpg" />
+    <Content Include="Images\sitelogo2.png" />
     <Content Include="Images\sonic-big.jpg" />
     <Content Include="Images\sonic.jpg" />
     <Content Include="Images\SpanishFlag.JPG" />
@@ -99,7 +98,6 @@
     <Content Include="Pages\Register.aspx" />
     <Content Include="Pages\Search.aspx" />
     <Content Include="Styles\GameClinicStyle.css" />
-    <Content Include="Styles\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
@@ -165,13 +163,6 @@
     <Compile Include="Clinic.Master.designer.cs">
       <DependentUpon>Clinic.Master</DependentUpon>
     </Compile>
-    <Compile Include="Controls\Banner.ascx.cs">
-      <DependentUpon>Banner.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Controls\Banner.ascx.designer.cs">
-      <DependentUpon>Banner.ascx</DependentUpon>
-    </Compile>
     <Compile Include="Controls\BreadCrumbs.ascx.cs">
       <DependentUpon>BreadCrumbs.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -206,13 +197,6 @@
     </Compile>
     <Compile Include="Controls\Login.ascx.designer.cs">
       <DependentUpon>Login.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\Logo.ascx.cs">
-      <DependentUpon>Logo.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Controls\Logo.ascx.designer.cs">
-      <DependentUpon>Logo.ascx</DependentUpon>
     </Compile>
     <Compile Include="Controls\NavBar.ascx.cs">
       <DependentUpon>NavBar.ascx</DependentUpon>

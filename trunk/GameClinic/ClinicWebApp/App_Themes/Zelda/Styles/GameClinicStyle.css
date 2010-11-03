@@ -8,8 +8,8 @@
 
 .sitecontrols
 {
-	height:100px;
-    width:1024px;
+	height:47px;
+    width:1032px;
     background-color:Green;
     border-left:1px solid black;
     border-right:1px solid black;
@@ -22,51 +22,24 @@
     display:inline;
     list-style-type:none;
     height:25px;
-}
-
-.cliniclogo
-{
-    padding-left:325px;
-    padding-right:350px;
-}
-
-.language
-{
-	width: 137px;
-}
-
-.themes
-{
-	width: 200px;
+    background-color:Green;
 }
 
 .controls
 {
-	width: 400px;
-}
-
-.logo
-{
-	width: 307px;
-	
-}
-
-.login
-{
-    width: 200px;
-}
-
-.cart
-{
-    width: 137px;
+	width: 247px;
 }
 
 .specials_deals
 {
-    width:1024px;
+    width:1032px;
     background-color:Black;
     color:White;
     height:135px;
+    border-left:1px solid green;
+    border-right:1px solid green;
+    border-bottom:1px solid green;
+    border-top:1px solid green;
 }
 
 .specials
@@ -86,7 +59,7 @@
 
 .navigation
 {
-    height:733px;
+    height:740px;
     width:150px;
     border-left:1px solid black;
     border-right:1px solid black;
@@ -101,10 +74,13 @@
 
 .contentholder
 {
-    height:703px;
+    height:695px;
     width:874px;
     background-color:White;
     color:Black;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
 }
 
 .navbar
