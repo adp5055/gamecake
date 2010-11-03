@@ -13,40 +13,22 @@ namespace ClinicWebApp.Controls {
     public partial class TopArea {
         
         /// <summary>
-        /// Lang control.
+        /// siteControls control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Lang;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl siteControls;
         
         /// <summary>
-        /// Flags control.
+        /// sitess control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ClinicWebApp.Controls.Languages Flags;
-        
-        /// <summary>
-        /// Theme control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Theme;
-        
-        /// <summary>
-        /// Themes control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ClinicWebApp.Controls.Themes Themes;
+        protected global::ClinicWebApp.Controls.SiteControls sitess;
         
         /// <summary>
         /// Log control.
@@ -56,15 +38,6 @@ namespace ClinicWebApp.Controls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Log;
-        
-        /// <summary>
-        /// Logo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ClinicWebApp.Controls.Logo Logo;
         
         /// <summary>
         /// shop control.
