@@ -210,4 +210,73 @@
   <data name="lblName" xml:space="preserve">
     <value>Nombre</value>
   </data>
+  <data name="SiteMapGame" xml:space="preserve">
+    <value>Juego</value>
+  </data>
+  <data name="btnLogin" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="btnRegister" xml:space="preserve">
+    <value>Registrarse</value>
+  </data>
+  <data name="lblConsole" xml:space="preserve">
+    <value>-CONSOLAS</value>
+  </data>
+  <data name="lblFeature" xml:space="preserve">
+    <value>DESTACADOS</value>
+  </data>
+  <data name="lblGenre" xml:space="preserve">
+    <value>-GENRE</value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>Contraseña:</value>
+  </data>
+  <data name="lblPlayerCnt" xml:space="preserve">
+    <value>-REPRODUCTOR DE CUENTA</value>
+  </data>
+  <data name="lblPrice" xml:space="preserve">
+    <value>-PRECIO</value>
+  </data>
+  <data name="lblQuickNav" xml:space="preserve">
+    <value>RÁPIDO DE NAVEGACIÓN</value>
+  </data>
+  <data name="lblRatings" xml:space="preserve">
+    <value>-CLASIFICACIONES</value>
+  </data>
+  <data name="linkChildren" xml:space="preserve">
+    <value>Niños</value>
+  </data>
+  <data name="linkEveryone" xml:space="preserve">
+    <value>Todo el mundo</value>
+  </data>
+  <data name="linkEveryone10" xml:space="preserve">
+    <value>Todo el mundo 10+</value>
+  </data>
+  <data name="linkFPS" xml:space="preserve">
+    <value>Acción En Primera Persona</value>
+  </data>
+  <data name="linkMature" xml:space="preserve">
+    <value>Mayor</value>
+  </data>
+  <data name="linkMultiPlayer" xml:space="preserve">
+    <value>Multijugador</value>
+  </data>
+  <data name="linkOnline" xml:space="preserve">
+    <value>Jugar en línea</value>
+  </data>
+  <data name="linkRolePlaying" xml:space="preserve">
+    <value>Juego de roles</value>
+  </data>
+  <data name="linkShooter" xml:space="preserve">
+    <value>Tirador</value>
+  </data>
+  <data name="linkSinglePlayer" xml:space="preserve">
+    <value>Un jugador</value>
+  </data>
+  <data name="linkSports" xml:space="preserve">
+    <value>Deportes</value>
+  </data>
+  <data name="linkTeen" xml:space="preserve">
+    <value>Adolescente</value>
+  </data>
 </root>

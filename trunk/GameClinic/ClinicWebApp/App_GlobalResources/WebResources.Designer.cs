@@ -70,6 +70,24 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Login.
+        /// </summary>
+        internal static string btnLogin {
+            get {
+                return ResourceManager.GetString("btnLogin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Register.
+        /// </summary>
+        internal static string btnRegister {
+            get {
+                return ResourceManager.GetString("btnRegister", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Submit.
         /// </summary>
         internal static string btnSubmit {
@@ -151,6 +169,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to -CONSOLE.
+        /// </summary>
+        internal static string lblConsole {
+            get {
+                return ResourceManager.GetString("lblConsole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Date of Birth.
         /// </summary>
         internal static string lblDateOfBirth {
@@ -165,6 +192,15 @@ namespace Resources {
         internal static string lblEmailAddress {
             get {
                 return ResourceManager.GetString("lblEmailAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to FEATURED GAME.
+        /// </summary>
+        internal static string lblFeature {
+            get {
+                return ResourceManager.GetString("lblFeature", resourceCulture);
             }
         }
         
@@ -187,6 +223,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to -GENRE.
+        /// </summary>
+        internal static string lblGenre {
+            get {
+                return ResourceManager.GetString("lblGenre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Last Name.
         /// </summary>
         internal static string lblLastName {
@@ -205,11 +250,56 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Password:.
+        /// </summary>
+        internal static string lblPassword {
+            get {
+                return ResourceManager.GetString("lblPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Phone Number.
         /// </summary>
         internal static string lblPhone {
             get {
                 return ResourceManager.GetString("lblPhone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -PLAYER COUNT.
+        /// </summary>
+        internal static string lblPlayerCnt {
+            get {
+                return ResourceManager.GetString("lblPlayerCnt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -PRICE.
+        /// </summary>
+        internal static string lblPrice {
+            get {
+                return ResourceManager.GetString("lblPrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to QUICK NAVIGATION.
+        /// </summary>
+        internal static string lblQuickNav {
+            get {
+                return ResourceManager.GetString("lblQuickNav", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -RATINGS.
+        /// </summary>
+        internal static string lblRatings {
+            get {
+                return ResourceManager.GetString("lblRatings", resourceCulture);
             }
         }
         
@@ -237,6 +327,114 @@ namespace Resources {
         internal static string lblZip {
             get {
                 return ResourceManager.GetString("lblZip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Children.
+        /// </summary>
+        internal static string linkChildren {
+            get {
+                return ResourceManager.GetString("linkChildren", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Everyone.
+        /// </summary>
+        internal static string linkEveryone {
+            get {
+                return ResourceManager.GetString("linkEveryone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Everyone 10+.
+        /// </summary>
+        internal static string linkEveryone10 {
+            get {
+                return ResourceManager.GetString("linkEveryone10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to First Person Shooter.
+        /// </summary>
+        internal static string linkFPS {
+            get {
+                return ResourceManager.GetString("linkFPS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mature.
+        /// </summary>
+        internal static string linkMature {
+            get {
+                return ResourceManager.GetString("linkMature", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Multiplayer.
+        /// </summary>
+        internal static string linkMultiPlayer {
+            get {
+                return ResourceManager.GetString("linkMultiPlayer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Online.
+        /// </summary>
+        internal static string linkOnline {
+            get {
+                return ResourceManager.GetString("linkOnline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Role Playing Games.
+        /// </summary>
+        internal static string linkRolePlaying {
+            get {
+                return ResourceManager.GetString("linkRolePlaying", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shooter.
+        /// </summary>
+        internal static string linkShooter {
+            get {
+                return ResourceManager.GetString("linkShooter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Single Player.
+        /// </summary>
+        internal static string linkSinglePlayer {
+            get {
+                return ResourceManager.GetString("linkSinglePlayer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sports.
+        /// </summary>
+        internal static string linkSports {
+            get {
+                return ResourceManager.GetString("linkSports", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Teenager.
+        /// </summary>
+        internal static string linkTeen {
+            get {
+                return ResourceManager.GetString("linkTeen", resourceCulture);
             }
         }
         
@@ -291,6 +489,15 @@ namespace Resources {
         internal static string SiteMapContact {
             get {
                 return ResourceManager.GetString("SiteMapContact", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Game.
+        /// </summary>
+        internal static string SiteMapGame {
+            get {
+                return ResourceManager.GetString("SiteMapGame", resourceCulture);
             }
         }
         

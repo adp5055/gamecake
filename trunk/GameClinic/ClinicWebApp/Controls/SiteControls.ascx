@@ -15,16 +15,11 @@
             &nbsp;
         </td>
         <td>
-            &nbsp;&nbsp;
             <asp:ImageButton ID="ImgBtnZelda" runat="server" ImageUrl="../Images/zelda.jpg" OnClick="ImgBtnZelda_Click"
                 AutoPostBack="true" CausesValidation="false" Height="33px" Width="25px" />
-        </td>
-        <td>
             &nbsp;
             <asp:ImageButton ID="ImgBtnMario" runat="server" ImageUrl="../Images/mario.jpg" OnClick="ImgBtnMario_Click"
                 AutoPostBack="true" CausesValidation="false" />
-        </td>
-        <td>
             &nbsp;
             <asp:ImageButton ID="ImgBtnSonic" runat="server" ImageUrl="../Images/sonic.jpg" OnClick="ImgBtnSonic_Click"
                 AutoPostBack="true" CausesValidation="false" Height="33px" />

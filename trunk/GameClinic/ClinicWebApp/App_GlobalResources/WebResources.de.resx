@@ -210,4 +210,73 @@
   <data name="lblName" xml:space="preserve">
     <value>Name</value>
   </data>
+  <data name="SiteMapGame" xml:space="preserve">
+    <value>Spiel</value>
+  </data>
+  <data name="btnLogin" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="btnRegister" xml:space="preserve">
+    <value>Registrieren</value>
+  </data>
+  <data name="lblConsole" xml:space="preserve">
+    <value>-CONSOLE</value>
+  </data>
+  <data name="lblFeature" xml:space="preserve">
+    <value>AUSGEWÄHLTE</value>
+  </data>
+  <data name="lblGenre" xml:space="preserve">
+    <value>-GENRE</value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>Passwort:</value>
+  </data>
+  <data name="lblPlayerCnt" xml:space="preserve">
+    <value>-SPIELERANZAHL</value>
+  </data>
+  <data name="lblPrice" xml:space="preserve">
+    <value>-PREIS</value>
+  </data>
+  <data name="lblQuickNav" xml:space="preserve">
+    <value>Schnell-Navigation</value>
+  </data>
+  <data name="lblRatings" xml:space="preserve">
+    <value>-BEWERTUNGEN</value>
+  </data>
+  <data name="linkChildren" xml:space="preserve">
+    <value>Kinder</value>
+  </data>
+  <data name="linkEveryone" xml:space="preserve">
+    <value>Jeder</value>
+  </data>
+  <data name="linkEveryone10" xml:space="preserve">
+    <value>Jeder 10+</value>
+  </data>
+  <data name="linkFPS" xml:space="preserve">
+    <value>First Person Shooter</value>
+  </data>
+  <data name="linkMature" xml:space="preserve">
+    <value>Ältere</value>
+  </data>
+  <data name="linkMultiPlayer" xml:space="preserve">
+    <value>Multiplayer</value>
+  </data>
+  <data name="linkOnline" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="linkRolePlaying" xml:space="preserve">
+    <value>Rollenspiele</value>
+  </data>
+  <data name="linkShooter" xml:space="preserve">
+    <value>Shooter</value>
+  </data>
+  <data name="linkSinglePlayer" xml:space="preserve">
+    <value>Single Player</value>
+  </data>
+  <data name="linkSports" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="linkTeen" xml:space="preserve">
+    <value>Teenager</value>
+  </data>
 </root>

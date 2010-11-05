@@ -4,6 +4,7 @@
     <siteMapNode url ="~/Home.aspx"          title = "$resources:WebResources, SiteMapHome"       description = "" />
     <siteMapNode url="~/Pages/Contact.aspx"  title = "$resources:WebResources, SiteMapContact"    description = "" />
     <siteMapNode url="~/Pages/Products.aspx" title = "$resources:WebResources, SiteMapProducts"   description = "" />
+    <siteMapNode url="~/Pages/Game.aspx"     title = "$resources:WebResources, SiteMapGame"       description = "" />
     <siteMapNode url="~/Pages/Member.aspx"   title = "$resources:WebResources, SiteMapMember"     description = "" />
     <siteMapNode url="~/Pages/Search.aspx"   title = "$resources:WebResources, SiteMapSearch"     description = "" />
     <siteMapNode url="~/Pages/AboutUs.aspx"  title = "$resources:WebResources, SiteMapAboutUs"    description = "" />
