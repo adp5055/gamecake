@@ -139,7 +139,7 @@
     <value>Fecha de Nacimiento</value>
   </data>
   <data name="lblEmailAddress" xml:space="preserve">
-    <value>Dirección de correo electrónico</value>
+    <value>e-Mail</value>
   </data>
   <data name="lblFirstName" xml:space="preserve">
     <value>Nombre</value>
@@ -151,7 +151,7 @@
     <value>Apellido</value>
   </data>
   <data name="panPersonalDetails" xml:space="preserve">
-    <value>Datos de carácter personal</value>
+    <value>Datos de personal</value>
   </data>
   <data name="radFemale" xml:space="preserve">
     <value>Mujeres</value>
@@ -169,7 +169,7 @@
     <value>Home</value>
   </data>
   <data name="SiteMapMember" xml:space="preserve">
-    <value>Miembros de la zona</value>
+    <value>Miembros zona</value>
   </data>
   <data name="SiteMapProducts" xml:space="preserve">
     <value>Productos</value>
@@ -232,13 +232,13 @@
     <value>Contraseña:</value>
   </data>
   <data name="lblPlayerCnt" xml:space="preserve">
-    <value>-REPRODUCTOR DE CUENTA</value>
+    <value>-REPRODUCTOR</value>
   </data>
   <data name="lblPrice" xml:space="preserve">
     <value>-PRECIO</value>
   </data>
   <data name="lblQuickNav" xml:space="preserve">
-    <value>RÁPIDO DE NAVEGACIÓN</value>
+    <value>NAVEGACIÓN</value>
   </data>
   <data name="lblRatings" xml:space="preserve">
     <value>-CLASIFICACIONES</value>
@@ -253,7 +253,7 @@
     <value>Todo el mundo 10+</value>
   </data>
   <data name="linkFPS" xml:space="preserve">
-    <value>Acción En Primera Persona</value>
+    <value> Primera Persona</value>
   </data>
   <data name="linkMature" xml:space="preserve">
     <value>Mayor</value>

@@ -139,7 +139,7 @@
     <value>Datum des Geburtstages</value>
   </data>
   <data name="lblEmailAddress" xml:space="preserve">
-    <value>E-Mail Adresse</value>
+    <value>E-Mail</value>
   </data>
   <data name="lblFirstName" xml:space="preserve">
     <value>Vorname</value>
