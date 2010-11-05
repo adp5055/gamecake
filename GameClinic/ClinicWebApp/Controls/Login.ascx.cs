@@ -33,12 +33,12 @@ namespace ClinicWebApp.Controls
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Pages/Register.aspx");
+
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("~/Pages/Register.aspx");
         }
     }
 }

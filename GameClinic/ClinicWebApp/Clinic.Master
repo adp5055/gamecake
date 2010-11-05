@@ -1,55 +1,57 @@
 ﻿<%--Team 2 | IST 421 Final Project --%>
 
 <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Clinic.master.cs" Inherits="ClinicWebApp.Clinic" %>
-<%@ Register Src = "~/Controls/TopArea.ascx"    TagName = "TopArea"     TagPrefix = "ucTop" %>
-<%@ Register Src = "~/Controls/Navigation.ascx" TagName = "Navigation"  TagPrefix = "ucNav" %>
-<%@ Register Src = "~/Controls/NavBar.ascx"     TagName = "NavBar"      TagPrefix = "ucBar" %>
-<%@ Register Src = "~/Controls/BreadCrumbs.ascx"TagName = "Crumbs"      TagPrefix = "ucBr" %>
-<%@ Register Src = "~/Controls/SpecialsBar.ascx"   TagName = "SpecialsBar"      TagPrefix = "ucSpe" %>
 
+<%@ Register Src="~/Controls/TopArea.ascx" TagName="TopArea" TagPrefix="ucTop" %>
+<%@ Register Src="~/Controls/Navigation.ascx" TagName="Navigation" TagPrefix="ucNav" %>
+<%@ Register Src="~/Controls/NavBar.ascx" TagName="NavBar" TagPrefix="ucBar" %>
+<%@ Register Src="~/Controls/BreadCrumbs.ascx" TagName="Crumbs" TagPrefix="ucBr" %>
+<%@ Register Src="~/Controls/SpecialsBar.ascx" TagName="SpecialsBar" TagPrefix="ucSpe" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <link href="App_Themes/Mario/Styles/GameClinicStyle.css" rel="stylesheet" type="text/css" />
     <link href="App_Themes/Sonic/Styles/GameClinicStyle.css" rel="stylesheet" type="text/css" />
     <link href="App_Themes/Zelda/Styles/GameClinicStyle.css" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" href= "Images/icon.jpg" />
+    <link rel="shortcut icon" href="Images/icon.jpg" />
     <title>Game Clinic</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div class = "sitecontrols" >
+    <asp:ScriptManager id="name" runat="server"></asp:ScriptManager>
+    <div class="sitecontrols">
         <ucTop:TopArea ID="TopArea" runat="server" />
     </div>
-<%--    <div>
+    <%--    <div>
         <asp:Label runat="server" Text="GAME CLINIC" ID="sitename" 
             style="text-align: center; font-size: x-small"></asp:Label>
     </div>--%>
     <div class="specials_deals">
-        <ucSpe:SpecialsBar ID="SpecialsBar" runat="server"/>
+        <ucSpe:SpecialsBar ID="SpecialsBar" runat="server" />
     </div>
-<table>
+    <table>
         <tr>
-            <td rowspan = "4">
-                <div class = "navigation">
+            <td rowspan="4">
+                <div class="navigation">
                     <ucNav:Navigation ID="navigation" runat="server" />
                 </div>
             </td>
         </tr>
         <tr>
             <td>
-                <div class = "bread">
-                    <ucBr:Crumbs ID = "breadd" runat = "server" />
+                <div class="bread">
+                    <ucBr:Crumbs ID="breadd" runat="server" />
                 </div>
             </td>
         </tr>
         <tr>
             <td>
-                <div class = "navbar">
-                    <ucBar:NavBar ID="NAVBAR1" runat="server" />
+                <div>
+                    <center class="navbar">
+                        <ucBar:NavBar ID="NAVBAR1" runat="server" />
+                    </center>
                 </div>
             </td>
         </tr>
@@ -60,13 +62,17 @@
                 </div>
             </td>
         </tr>
-        <tr class = "bottom">
+        <tr class="bottom">
             <td class="footer">
-                <center>IST 421 Team 2</center>
+                <center>
+                    IST 421 Team 2
+                </center>
             </td>
             <td>
-                <div class = "navbar">
-                    <ucBar:NavBar ID="NAVBAR2" runat="server" />
+                <div class="navbar">
+                    <center>
+                        <ucBar:NavBar ID="NAVBAR2" runat="server" />
+                    </center>
                 </div>
             </td>
         </tr>

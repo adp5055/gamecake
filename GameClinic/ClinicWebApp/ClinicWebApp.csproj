@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -62,6 +65,7 @@
     <Content Include="Controls\Footer.ascx" />
     <Content Include="Controls\Languages.ascx" />
     <Content Include="Controls\Login.ascx" />
+    <Content Include="Controls\LogoSpot.ascx" />
     <Content Include="Controls\NavBar.ascx" />
     <Content Include="Controls\Navigation.ascx" />
     <Content Include="Controls\ShopCart.ascx" />
@@ -79,12 +83,15 @@
     <Content Include="Images\gclogo.jpg" />
     <Content Include="Images\GermanFlag.JPG" />
     <Content Include="Images\icon.jpg" />
-    <Content Include="Images\logo.png" />
+    <Content Include="Images\mario-2.jpg" />
     <Content Include="Images\mario-big.jpg" />
     <Content Include="Images\mario.jpg" />
     <Content Include="Images\mw2.jpg" />
     <Content Include="Images\shopcart.jpg" />
-    <Content Include="Images\sitelogo2.png" />
+    <Content Include="App_Themes\Mario\Images\sitelogo-mario.png" />
+    <Content Include="App_Themes\Sonic\Images\sitelogo-sonic.png" />
+    <Content Include="App_Themes\Zelda\Images\sitelogo-zelda.png" />
+    <Content Include="Images\sitelogo-zelda.png" />
     <Content Include="Images\sonic-big.jpg" />
     <Content Include="Images\sonic.jpg" />
     <Content Include="Images\SpanishFlag.JPG" />
@@ -93,6 +100,7 @@
     <Content Include="Pages\AboutUs.aspx" />
     <Content Include="Pages\Contact.aspx" />
     <Content Include="Pages\Detail.aspx" />
+    <Content Include="Pages\Game.aspx" />
     <Content Include="Pages\Member.aspx" />
     <Content Include="Pages\Products.aspx" />
     <Content Include="Pages\Register.aspx" />
@@ -198,6 +206,13 @@
     <Compile Include="Controls\Login.ascx.designer.cs">
       <DependentUpon>Login.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Controls\LogoSpot.ascx.cs">
+      <DependentUpon>LogoSpot.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LogoSpot.ascx.designer.cs">
+      <DependentUpon>LogoSpot.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Controls\NavBar.ascx.cs">
       <DependentUpon>NavBar.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -291,6 +306,13 @@
     </Compile>
     <Compile Include="Pages\Detail.aspx.designer.cs">
       <DependentUpon>Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Game.aspx.cs">
+      <DependentUpon>Game.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Game.aspx.designer.cs">
+      <DependentUpon>Game.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Member.aspx.cs">
       <DependentUpon>Member.aspx</DependentUpon>
